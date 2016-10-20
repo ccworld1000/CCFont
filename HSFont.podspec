@@ -12,8 +12,7 @@ Pod::Spec.new do |s|
   s.source_files  = "HSFont", "HSFont/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
   s.ios.framework  = "UIKit"
-  #s.framework  = "Cocoa", "AppKit", "Foundation"
-  s.framework  = "AppKit"
+  s.osx.framework  = "AppKit"
   s.requires_arc = true
 
 end
