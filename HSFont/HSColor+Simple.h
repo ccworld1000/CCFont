@@ -6,15 +6,7 @@
 //  Copyright © 2016年 cc | ccworld1000@gmail.com. All rights reserved.
 //
 
-#import "TargetConditionals.h"
-
-#if TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR
-#import <UIKit/UIKit.h>
-#define HSColor UIColor
-#else
-#import <Cocoa/Cocoa.h>
-#define HSColor NSColor
-#endif
+#import "HSUtilities.h"
 
 @interface HSColor (Simple)
 

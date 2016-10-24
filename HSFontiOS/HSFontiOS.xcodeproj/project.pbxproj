@@ -13,8 +13,7 @@
 		0098F32B1DB89AA30066FDCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0098F3291DB89AA30066FDCB /* Main.storyboard */; };
 		0098F32D1DB89AA30066FDCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0098F32C1DB89AA30066FDCB /* Assets.xcassets */; };
 		0098F3301DB89AA30066FDCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0098F32E1DB89AA30066FDCB /* LaunchScreen.storyboard */; };
-		0098F35A1DB89F830066FDCB /* HSFont+Simple.m in Sources */ = {isa = PBXBuildFile; fileRef = 0098F3591DB89F830066FDCB /* HSFont+Simple.m */; };
-		0098F35D1DB89FD10066FDCB /* HSColor+Simple.m in Sources */ = {isa = PBXBuildFile; fileRef = 0098F35C1DB89FD10066FDCB /* HSColor+Simple.m */; };
+		7BD41A9F0DFB650356C44A6F /* libPods-HSFontiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A968E7114A82B55DC143A1 /* libPods-HSFontiOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +27,9 @@
 		0098F32C1DB89AA30066FDCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0098F32F1DB89AA30066FDCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0098F3311DB89AA30066FDCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0098F3581DB89F830066FDCB /* HSFont+Simple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HSFont+Simple.h"; sourceTree = "<group>"; };
-		0098F3591DB89F830066FDCB /* HSFont+Simple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HSFont+Simple.m"; sourceTree = "<group>"; };
-		0098F35B1DB89FD10066FDCB /* HSColor+Simple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HSColor+Simple.h"; sourceTree = "<group>"; };
-		0098F35C1DB89FD10066FDCB /* HSColor+Simple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HSColor+Simple.m"; sourceTree = "<group>"; };
+		CDA45CA14CE7D2760729131A /* Pods-HSFontiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSFontiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-HSFontiOS/Pods-HSFontiOS.release.xcconfig"; sourceTree = "<group>"; };
+		DCE36F6FC85EB30568DDB39B /* Pods-HSFontiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSFontiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HSFontiOS/Pods-HSFontiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F8A968E7114A82B55DC143A1 /* libPods-HSFontiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HSFontiOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BD41A9F0DFB650356C44A6F /* libPods-HSFontiOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +49,8 @@
 			children = (
 				0098F31F1DB89AA30066FDCB /* HSFontiOS */,
 				0098F31E1DB89AA30066FDCB /* Products */,
+				2309002BEB483408E0A6EA2F /* Pods */,
+				1A0FF37EA25D23A0606E3920 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,7 +65,6 @@
 		0098F31F1DB89AA30066FDCB /* HSFontiOS */ = {
 			isa = PBXGroup;
 			children = (
-				0098F3571DB89F830066FDCB /* HSFont */,
 				0098F3231DB89AA30066FDCB /* AppDelegate.h */,
 				0098F3241DB89AA30066FDCB /* AppDelegate.m */,
 				0098F3261DB89AA30066FDCB /* ViewController.h */,
@@ -86,16 +86,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0098F3571DB89F830066FDCB /* HSFont */ = {
+		1A0FF37EA25D23A0606E3920 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0098F3581DB89F830066FDCB /* HSFont+Simple.h */,
-				0098F3591DB89F830066FDCB /* HSFont+Simple.m */,
-				0098F35B1DB89FD10066FDCB /* HSColor+Simple.h */,
-				0098F35C1DB89FD10066FDCB /* HSColor+Simple.m */,
+				F8A968E7114A82B55DC143A1 /* libPods-HSFontiOS.a */,
 			);
-			name = HSFont;
-			path = ../../HSFont;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2309002BEB483408E0A6EA2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DCE36F6FC85EB30568DDB39B /* Pods-HSFontiOS.debug.xcconfig */,
+				CDA45CA14CE7D2760729131A /* Pods-HSFontiOS.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0098F3341DB89AA30066FDCB /* Build configuration list for PBXNativeTarget "HSFontiOS" */;
 			buildPhases = (
+				328FB6DB1AEF04E5230DAE99 /* [CP] Check Pods Manifest.lock */,
 				0098F3191DB89AA30066FDCB /* Sources */,
 				0098F31A1DB89AA30066FDCB /* Frameworks */,
 				0098F31B1DB89AA30066FDCB /* Resources */,
+				1949A833A495113E63420A44 /* [CP] Embed Pods Frameworks */,
+				2400858FC2F9E6171A955DE4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,14 +171,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1949A833A495113E63420A44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HSFontiOS/Pods-HSFontiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2400858FC2F9E6171A955DE4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HSFontiOS/Pods-HSFontiOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		328FB6DB1AEF04E5230DAE99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0098F3191DB89AA30066FDCB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0098F3281DB89AA30066FDCB /* ViewController.m in Sources */,
-				0098F35A1DB89F830066FDCB /* HSFont+Simple.m in Sources */,
-				0098F35D1DB89FD10066FDCB /* HSColor+Simple.m in Sources */,
 				0098F3251DB89AA30066FDCB /* AppDelegate.m in Sources */,
 				0098F3221DB89AA30066FDCB /* main.m in Sources */,
 			);
@@ -284,6 +338,7 @@
 		};
 		0098F3351DB89AA30066FDCB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE36F6FC85EB30568DDB39B /* Pods-HSFontiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HSFontiOS/Info.plist;
@@ -295,6 +350,7 @@
 		};
 		0098F3361DB89AA30066FDCB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDA45CA14CE7D2760729131A /* Pods-HSFontiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HSFontiOS/Info.plist;

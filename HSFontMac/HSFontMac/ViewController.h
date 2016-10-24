@@ -7,8 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "HSColor+Simple.h"
-#import "HSFont+Simple.h"
+#import <HSUtilities.h>
 
 @interface ViewController : NSViewController
 

@@ -7,8 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "HSFont+Simple.h"
-#import "HSColor+Simple.h"
+#import <HSUtilities.h>
 
 @interface ViewController ()
 

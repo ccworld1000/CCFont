@@ -12,8 +12,7 @@
 		0098F34B1DB89AEB0066FDCB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0098F34A1DB89AEB0066FDCB /* ViewController.m */; };
 		0098F34D1DB89AEB0066FDCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0098F34C1DB89AEB0066FDCB /* Assets.xcassets */; };
 		0098F3501DB89AEB0066FDCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0098F34E1DB89AEB0066FDCB /* Main.storyboard */; };
-		00F058AD1DB8B31200C6E75B /* HSColor+Simple.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F058AA1DB8B31200C6E75B /* HSColor+Simple.m */; };
-		00F058AE1DB8B31200C6E75B /* HSFont+Simple.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F058AC1DB8B31200C6E75B /* HSFont+Simple.m */; };
+		128CAF70ECD286E6E216B89D /* libPods-HSFontMac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E33789816D655B24DE7654A4 /* libPods-HSFontMac.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +25,9 @@
 		0098F34C1DB89AEB0066FDCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0098F34F1DB89AEB0066FDCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0098F3511DB89AEB0066FDCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00F058A91DB8B31200C6E75B /* HSColor+Simple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HSColor+Simple.h"; sourceTree = "<group>"; };
-		00F058AA1DB8B31200C6E75B /* HSColor+Simple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HSColor+Simple.m"; sourceTree = "<group>"; };
-		00F058AB1DB8B31200C6E75B /* HSFont+Simple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HSFont+Simple.h"; sourceTree = "<group>"; };
-		00F058AC1DB8B31200C6E75B /* HSFont+Simple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HSFont+Simple.m"; sourceTree = "<group>"; };
+		6B78509A8C6DBF119A9B7E5C /* Pods-HSFontMac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSFontMac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HSFontMac/Pods-HSFontMac.debug.xcconfig"; sourceTree = "<group>"; };
+		6F0368089CDB66B62AF36EAD /* Pods-HSFontMac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSFontMac.release.xcconfig"; path = "Pods/Target Support Files/Pods-HSFontMac/Pods-HSFontMac.release.xcconfig"; sourceTree = "<group>"; };
+		E33789816D655B24DE7654A4 /* libPods-HSFontMac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HSFontMac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				128CAF70ECD286E6E216B89D /* libPods-HSFontMac.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +47,8 @@
 			children = (
 				0098F3421DB89AEB0066FDCB /* HSFontMac */,
 				0098F3411DB89AEB0066FDCB /* Products */,
+				E28A274413370482554A8F4A /* Pods */,
+				A3BBBE094A3DD1E36A40D7EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,7 +63,6 @@
 		0098F3421DB89AEB0066FDCB /* HSFontMac */ = {
 			isa = PBXGroup;
 			children = (
-				00F058A81DB8B31200C6E75B /* HSFont */,
 				0098F3431DB89AEB0066FDCB /* AppDelegate.h */,
 				0098F3441DB89AEB0066FDCB /* AppDelegate.m */,
 				0098F3491DB89AEB0066FDCB /* ViewController.h */,
@@ -83,16 +83,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		00F058A81DB8B31200C6E75B /* HSFont */ = {
+		A3BBBE094A3DD1E36A40D7EC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				00F058A91DB8B31200C6E75B /* HSColor+Simple.h */,
-				00F058AA1DB8B31200C6E75B /* HSColor+Simple.m */,
-				00F058AB1DB8B31200C6E75B /* HSFont+Simple.h */,
-				00F058AC1DB8B31200C6E75B /* HSFont+Simple.m */,
+				E33789816D655B24DE7654A4 /* libPods-HSFontMac.a */,
 			);
-			name = HSFont;
-			path = ../../HSFont;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E28A274413370482554A8F4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B78509A8C6DBF119A9B7E5C /* Pods-HSFontMac.debug.xcconfig */,
+				6F0368089CDB66B62AF36EAD /* Pods-HSFontMac.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0098F3541DB89AEB0066FDCB /* Build configuration list for PBXNativeTarget "HSFontMac" */;
 			buildPhases = (
+				86BA0A48E3CF4D65B57109CB /* [CP] Check Pods Manifest.lock */,
 				0098F33C1DB89AEB0066FDCB /* Sources */,
 				0098F33D1DB89AEB0066FDCB /* Frameworks */,
 				0098F33E1DB89AEB0066FDCB /* Resources */,
+				DD2FF80927528EDD9715B573 /* [CP] Embed Pods Frameworks */,
+				7B471D7D324560433C73BD01 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -159,6 +167,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7B471D7D324560433C73BD01 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HSFontMac/Pods-HSFontMac-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86BA0A48E3CF4D65B57109CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DD2FF80927528EDD9715B573 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HSFontMac/Pods-HSFontMac-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0098F33C1DB89AEB0066FDCB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -166,8 +222,6 @@
 			files = (
 				0098F34B1DB89AEB0066FDCB /* ViewController.m in Sources */,
 				0098F3481DB89AEB0066FDCB /* main.m in Sources */,
-				00F058AD1DB8B31200C6E75B /* HSColor+Simple.m in Sources */,
-				00F058AE1DB8B31200C6E75B /* HSFont+Simple.m in Sources */,
 				0098F3451DB89AEB0066FDCB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +323,7 @@
 		};
 		0098F3551DB89AEB0066FDCB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B78509A8C6DBF119A9B7E5C /* Pods-HSFontMac.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -281,6 +336,7 @@
 		};
 		0098F3561DB89AEB0066FDCB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F0368089CDB66B62AF36EAD /* Pods-HSFontMac.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;

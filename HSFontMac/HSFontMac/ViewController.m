@@ -30,7 +30,7 @@
                 l.textColor = [HSColor colorWithHexString:[NSString stringWithFormat:@"%x%x%x", index * 4, 255, index * 8]];
             }
             
-            l.frame = CGRectMake(100, -index * 40, 100, 40);
+            l.frame = CGRectMake(100, index * 40, 100, 40);
             
             [self.view addSubview: l];
         }

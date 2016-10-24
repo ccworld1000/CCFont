@@ -10,16 +10,5 @@
 
 @implementation HSFont (Simple)
 
-//+ (HSFont *)fontWithName:(NSString *)fontName size:(CGFloat)fontSize {
-//    return [HSFont fontWithName: fontName size:fontSize];
-//}
-//
-//+ (HSFont *)systemFontOfSize:(CGFloat)fontSize {
-//    return [HSFont systemFontOfSize: fontSize];
-//}
-//
-//+ (HSFont *)boldSystemFontOfSize:(CGFloat)fontSize {
-//    return [HSFont boldSystemFontOfSize: fontSize];
-//}
 
 @end
