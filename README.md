@@ -9,10 +9,10 @@ simple support machosx [>=10.9] and iOS [>=8]
 ## Screenshot 1
 
 ### OSX
-![HSFont HSFontMac Screenshot](HSFontMac.gif)
+![HSFont HSFontMac Screenshot](https://github.com/ccworld1000/HSFont/blob/master/HSFontMac.gif?raw=true)
 
 ### iOS
-![HSFont HSFontiOS Screenshot](HSFontiOS.gif)
+![HSFont HSFontiOS Screenshot](https://github.com/ccworld1000/HSFont/blob/master/HSFontiOS.gif?raw=true)
 
 ## HSFont
 HSFont simple support machosx and iOS, can simple replace NSFont or UIFont.
