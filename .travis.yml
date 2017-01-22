@@ -1,5 +1,5 @@
 language: objective-c
-
+osx_image: xcode8
 sudo: ture
 
 cache:
@@ -12,6 +12,6 @@ before_install:
 
 script:
  - cd ./HSFontiOS
- - pod update
+ - pod install
  - xcodebuild -workspace HSFontiOS.xcworkspace -scheme HSFontiOS  build -sdk iphonesimulator
  - cd ..
