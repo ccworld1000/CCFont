@@ -13,5 +13,7 @@ before_install:
 script:
  - cd ./HSFontiOS
  - pod install
- - xcodebuild -list
- - xcodebuild -workspace HSFontiOS.xcworkspace -scheme HSFontiOS  build -sdk iphonesimulator
+ - cd ..
+ - cd ./HSFontMac
+ - cd ..
+# - xcodebuild -workspace HSFontiOS.xcworkspace -scheme HSFontiOS  build -sdk iphonesimulator
