@@ -9,6 +9,8 @@
 [![Version](https://img.shields.io/cocoapods/v/HSFont.svg)](https://github.com/ccworld1000/HSFont.git)
 [![License](https://img.shields.io/cocoapods/l/HSFont.svg)](https://github.com/ccworld1000/HSFont/blob/master/LICENSE)
 
+[![Build Status](https://travis-ci.org/ccworld1000/HSFont.svg?branch=master)](https://travis-ci.org/ccworld1000/HSFont)
+
 simple support MAC OSX [>=10.9] and iOS [>=8]
 
 [https://github.com/ccworld1000/HSFont.git](https://github.com/ccworld1000/HSFont.git)
