@@ -1,3 +1,10 @@
 language: objective-c
-script: xcodebuild -project test.xcodeproj -sdk iphonesimulator
+
 sudo: ture
+
+before_install:
+	- rvm use system
+	- sudo gem install cocopods
+
+script: 
+	xcodebuild -workspace HSFontiOS/HSFontiOS.xcworkspace -scheme HSFontiOS  build -sdk iphonesimulator
