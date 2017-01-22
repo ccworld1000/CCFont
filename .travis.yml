@@ -2,9 +2,13 @@ language: objective-c
 
 sudo: ture
 
+cache:
+  - bundler
+  - cocoapods
+
 before_install:
  - rvm use system
- - gem install cocoapods --no-rdoc --no-ri --no-document --quiet
+# - gem install cocoapods --no-rdoc --no-ri --no-document --quiet
 
 script:
  - xcodebuild -workspace HSFontiOS/HSFontiOS.xcworkspace -scheme HSFontiOS  build -sdk iphonesimulator
