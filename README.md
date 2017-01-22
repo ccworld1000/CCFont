@@ -1,10 +1,20 @@
 
 # HSFont for iOS && OSX
 =======================
+[![Apps Using](https://img.shields.io/cocoapods/at/HSFont.svg?label=Apps%20Using%20HSFont&colorB=28B9FE)](http://cocoapods.org/pods/HSFont) [![Downloads](https://img.shields.io/cocoapods/dt/HSFont.svg?label=Total%20Downloads&colorB=28B9FE)](http://cocoapods.org/pods/HSFont)
 
-simple support machosx [>=10.9] and iOS [>=8]
+[![Platform](https://img.shields.io/badge/platforms-iOS%20%7C%20OSX-orange.svg)](https://github.com/ccworld1000/HSFont.git)
+[![Languages](https://img.shields.io/badge/languages-ObjC-orange.svg)](http://AsyncDisplayKit.org)
+
+[![Version](https://img.shields.io/cocoapods/v/HSFont.svg)](https://github.com/ccworld1000/HSFont.git)
+[![License](https://img.shields.io/cocoapods/l/HSFont.svg)](https://github.com/ccworld1000/HSFont/blob/master/LICENSE)
+
+simple support MAC OSX [>=10.9] and iOS [>=8]
 
 [https://github.com/ccworld1000/HSFont.git](https://github.com/ccworld1000/HSFont.git)
+
+##bug 
+Email ： <a href="mailto:ccworld1000@gmail.com">ccworld1000@gmail.com</a>
 
 ## Screenshot 1
 
@@ -55,7 +65,7 @@ pod 'HSFont'
 ## MIT License
 MIT License
 
-Copyright (c) 2016 ccworld1000
+Copyright (c) 2016-2017 ccworld1000 | bug : <a href="mailto:ccworld1000@gmail.com">ccworld1000@gmail.com</a>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
