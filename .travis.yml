@@ -7,4 +7,4 @@ before_install:
 	- sudo gem install cocopods
 
 script: 
-	xcodebuild -workspace HSFontiOS/HSFontiOS.xcworkspace -scheme HSFontiOS  build -sdk iphonesimulator
+	- xcodebuild -workspace HSFontiOS/HSFontiOS.xcworkspace -scheme HSFontiOS  build -sdk iphonesimulator
