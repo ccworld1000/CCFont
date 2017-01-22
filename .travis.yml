@@ -8,10 +8,10 @@ cache:
 
 before_install:
  - rvm use system
-# - gem install cocoapods --no-rdoc --no-ri --no-document --quiet
+ - gem update cocoapods
 
 script:
- - cd HSFontiOS
- - bundle exec pod install
+ - cd ./HSFontiOS
+ - pod update
  - xcodebuild -workspace HSFontiOS.xcworkspace -scheme HSFontiOS  build -sdk iphonesimulator
  - cd ..
