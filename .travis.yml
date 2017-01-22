@@ -3,8 +3,8 @@ language: objective-c
 sudo: ture
 
 before_install:
-	- rvm use system
-	- sudo gem install cocopods
+ - rvm use system
+ - sudo gem install cocopods
 
-script: 
-	- xcodebuild -workspace HSFontiOS/HSFontiOS.xcworkspace -scheme HSFontiOS  build -sdk iphonesimulator
+script:
+ - xcodebuild -workspace HSFontiOS/HSFontiOS.xcworkspace -scheme HSFontiOS  build -sdk iphonesimulator
