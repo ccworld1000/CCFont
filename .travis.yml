@@ -8,7 +8,7 @@ cache:
 
 before_install:
  - rvm use system
- - gem update cocoapods
+ - sudo gem install cocoapods -v '1.1.1'
 
 script:
  - cd ./HSFontiOS
