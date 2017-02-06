@@ -42,6 +42,10 @@ pod 'HSFont'
 ```objective-c
 #import <HSUtilities.h>
 ```
+# or
+```objective-c
+#import <HSFont/HSUtilities.h>
+```
 # demo code
 ```objective-c
     HSView *p = superView;
