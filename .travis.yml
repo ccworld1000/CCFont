@@ -11,7 +11,7 @@ before_install:
  - sudo gem install cocoapods -v '1.1.1'
 
 script:
- - cd ./HSFontiOS
+ - cd ./HSFontDemo
  - pod install
  - xcodebuild -workspace HSFontDemo.xcworkspace -scheme HSFontiOS  build -sdk iphonesimulator
  - cd ..
