@@ -21,6 +21,7 @@
     #define HSColor NSColor
 #endif
 
+#import "accommon.h"
 #import "HSFont+Simple.h"
 #import "HSColor+Simple.h"
 

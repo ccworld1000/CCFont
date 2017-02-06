@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		032A85146136D3C3844A226BAD5EE11F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F051F732706DF8957257FEC34FD628 /* UIKit.framework */; };
+		0CA57C8E2AFD87936C13E777DE88DEA2 /* HSUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B9D7F3C066BEDF2F6B24658AA44630A /* HSUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1091F5D80663474BB2ED4079C21732C2 /* HSFont+Simple.h in Headers */ = {isa = PBXBuildFile; fileRef = 69E1B39615BD63E8366862A22758250A /* HSFont+Simple.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23DCCB4BFAAC0F550ED09FAE9E607476 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D96E84C7DE15939C46C8465DF64755 /* Foundation.framework */; };
+		2D711FE3564958369ECD8ADD75F8B0F8 /* accommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 90ECFDF5A8A205D10F72452B4F7F68F5 /* accommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37A7952433F8005E6A52D62A161A3C5A /* HSFont+Simple.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCECAFD23572F6A9C161BFDB3A03CAA /* HSFont+Simple.m */; };
+		3FD3860C2F98560C1C829A9F522BF5E7 /* HSColor+Simple.m in Sources */ = {isa = PBXBuildFile; fileRef = 892DC690E37DD64B2623BD3BBDC43C11 /* HSColor+Simple.m */; };
+		4682AE7A1AB736E52752D0777A275A97 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B4C8C17292365637D8DC68132131C16 /* Cocoa.framework */; };
+		534937EE8500F0D1B0E71178B16FADD8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B4C8C17292365637D8DC68132131C16 /* Cocoa.framework */; };
+		5C5A46CC1AFA19A6A40841A0BF6F5AB0 /* HSUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B9D7F3C066BEDF2F6B24658AA44630A /* HSUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		612A29D266A7285C53B7637D7EE90750 /* HSFont+Simple.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCECAFD23572F6A9C161BFDB3A03CAA /* HSFont+Simple.m */; };
+		73E9EB43C1E8D0B72589E2E0295F9A5D /* accommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 90ECFDF5A8A205D10F72452B4F7F68F5 /* accommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		869B6F82E0248032577DC2067FB77A7C /* Pods-HSFontiOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D2EDA1410B5E2E92D60B43C33C724A /* Pods-HSFontiOS-dummy.m */; };
+		95534B45184F3A114FD276169E2BFC88 /* HSFont-OSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C3558FADF454C32014E5B44C958D3F /* HSFont-OSX-dummy.m */; };
+		9FB384D9679C680465E5785CBA712C20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D96E84C7DE15939C46C8465DF64755 /* Foundation.framework */; };
+		AD0661D7167092EF768613040C131891 /* HSColor+Simple.h in Headers */ = {isa = PBXBuildFile; fileRef = 34DE7A79168C98D6765418C3B7CD7F85 /* HSColor+Simple.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B21D80A2C83723FD99A96F5CD4C5B4B8 /* Pods-HSFontMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA97511BD8BD17D3FAD903CB6ACF3A30 /* Pods-HSFontMac-dummy.m */; };
+		BEDA3DF6E79501AB91C87B5160B61E67 /* HSColor+Simple.m in Sources */ = {isa = PBXBuildFile; fileRef = 892DC690E37DD64B2623BD3BBDC43C11 /* HSColor+Simple.m */; };
+		C443D09146C9C3FE2005A1DA9376F890 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AA009782C352150159947F8518CEB6 /* AppKit.framework */; };
+		D06CB991F3090CC360FAAD59FEC42811 /* accommon.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D97CF9F816F8D6E89C739009188EC2 /* accommon.c */; };
+		D49D19424EF541A1AC10DF42F1FABDB4 /* accommon.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D97CF9F816F8D6E89C739009188EC2 /* accommon.c */; };
+		D6BDDC5D23C925FA24907E8030EB79A1 /* HSFont+Simple.h in Headers */ = {isa = PBXBuildFile; fileRef = 69E1B39615BD63E8366862A22758250A /* HSFont+Simple.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5B654DF36564D7ABBDF0B6C8162C419 /* HSFont-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A161D2F36A818E3828B32E9CA3D534 /* HSFont-iOS-dummy.m */; };
+		F93822082FC4AD8961837DC2D98CA865 /* HSColor+Simple.h in Headers */ = {isa = PBXBuildFile; fileRef = 34DE7A79168C98D6765418C3B7CD7F85 /* HSColor+Simple.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BEF8BB1C9933C2390C6129FD1EE8201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6C78FB9E6C12F00BC2A47668CE43B7E;
+			remoteInfo = "HSFont-iOS";
+		};
+		8C22F2C2E0081DC4A92DC4A0DAF6EFAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 659990E786635EC29244F28CAE75482B;
+			remoteInfo = "HSFont-OSX";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04D97CF9F816F8D6E89C739009188EC2 /* accommon.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; path = accommon.c; sourceTree = "<group>"; };
+		08F051F732706DF8957257FEC34FD628 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		0B9D7F3C066BEDF2F6B24658AA44630A /* HSUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HSUtilities.h; sourceTree = "<group>"; };
+		0CCECAFD23572F6A9C161BFDB3A03CAA /* HSFont+Simple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HSFont+Simple.m"; sourceTree = "<group>"; };
+		0FF43CFE548981E22CDF1A5695C3D818 /* libHSFont-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libHSFont-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D2EDA1410B5E2E92D60B43C33C724A /* Pods-HSFontiOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HSFontiOS-dummy.m"; sourceTree = "<group>"; };
+		1F45CD0EE3ABC85E4B39380AFF3ACA0B /* Pods-HSFontiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HSFontiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		2AA6FFB504E85231E18A44EB9B1D374B /* Pods-HSFontMac-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HSFontMac-acknowledgements.plist"; sourceTree = "<group>"; };
+		34DE7A79168C98D6765418C3B7CD7F85 /* HSColor+Simple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HSColor+Simple.h"; sourceTree = "<group>"; };
+		3B972B7056C3E3FBCC7FC4F8242B0354 /* HSFont-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "HSFont-iOS-prefix.pch"; path = "../HSFont-iOS/HSFont-iOS-prefix.pch"; sourceTree = "<group>"; };
+		41769C425A9FF7BB869E59B11F07F0A8 /* libPods-HSFontiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HSFontiOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DB6D023B44A810205DCBC5AF8D83228 /* Pods-HSFontiOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HSFontiOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		52228A3F76576A15134B004CB84EF91C /* Pods-HSFontMac-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HSFontMac-resources.sh"; sourceTree = "<group>"; };
+		5342A315DE076BF6B8731AB9D0BB1340 /* libHSFont-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libHSFont-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62B8197F1D96D77868992BF40BC53526 /* Pods-HSFontiOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HSFontiOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		67DE98AE3C75BEB540793A99BB7C2405 /* HSFont-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "HSFont-iOS.xcconfig"; path = "../HSFont-iOS/HSFont-iOS.xcconfig"; sourceTree = "<group>"; };
+		69E1B39615BD63E8366862A22758250A /* HSFont+Simple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HSFont+Simple.h"; sourceTree = "<group>"; };
+		6B4C8C17292365637D8DC68132131C16 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		79D96E84C7DE15939C46C8465DF64755 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		82C3558FADF454C32014E5B44C958D3F /* HSFont-OSX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HSFont-OSX-dummy.m"; sourceTree = "<group>"; };
+		83415D787EBAAA40ABEE168ECD9C970B /* HSFont-OSX.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "HSFont-OSX.xcconfig"; sourceTree = "<group>"; };
+		84AA009782C352150159947F8518CEB6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
+		892DC690E37DD64B2623BD3BBDC43C11 /* HSColor+Simple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HSColor+Simple.m"; sourceTree = "<group>"; };
+		89313522C7B717BB71308C6D45A64304 /* Pods-HSFontiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HSFontiOS.release.xcconfig"; sourceTree = "<group>"; };
+		90ECFDF5A8A205D10F72452B4F7F68F5 /* accommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = accommon.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		986A8B7E97F9262B2B6C4392ADB3ED51 /* Pods-HSFontMac-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HSFontMac-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AE23437D0310F951EA954B128D9B5E13 /* Pods-HSFontiOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HSFontiOS-resources.sh"; sourceTree = "<group>"; };
+		B5A161D2F36A818E3828B32E9CA3D534 /* HSFont-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "HSFont-iOS-dummy.m"; path = "../HSFont-iOS/HSFont-iOS-dummy.m"; sourceTree = "<group>"; };
+		C2B48D00AFB535A8B93C219094582B24 /* Pods-HSFontMac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HSFontMac.release.xcconfig"; sourceTree = "<group>"; };
+		D0F89EAEB7F72C5A70F630D98F87986A /* Pods-HSFontMac-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HSFontMac-frameworks.sh"; sourceTree = "<group>"; };
+		D39A45DB4ADE2D5EA0495A555F1F1C06 /* libPods-HSFontMac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HSFontMac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA97511BD8BD17D3FAD903CB6ACF3A30 /* Pods-HSFontMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HSFontMac-dummy.m"; sourceTree = "<group>"; };
+		F011035EFC8015D97195C3CFEF553366 /* HSFont-OSX-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HSFont-OSX-prefix.pch"; sourceTree = "<group>"; };
+		F5D714D45191937A522296C67C65637D /* Pods-HSFontiOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HSFontiOS-frameworks.sh"; sourceTree = "<group>"; };
+		F6CDE8BE3AB8EFF41CF33186D4FED05E /* Pods-HSFontMac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HSFontMac.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		482D77264F615FECE26088D2D9A3D498 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23DCCB4BFAAC0F550ED09FAE9E607476 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F981430AB44C94169F8973CC5B676E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FB384D9679C680465E5785CBA712C20 /* Foundation.framework in Frameworks */,
+				032A85146136D3C3844A226BAD5EE11F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DC6298C588A1E1E298ED7A4C75A887A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				534937EE8500F0D1B0E71178B16FADD8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF96C7150BAFBF9C18B7B3D1E8D0387D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C443D09146C9C3FE2005A1DA9376F890 /* AppKit.framework in Frameworks */,
+				4682AE7A1AB736E52752D0777A275A97 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A5A85A03155D9EB1B9235360896DC00 /* Pods-HSFontiOS */ = {
+			isa = PBXGroup;
+			children = (
+				62B8197F1D96D77868992BF40BC53526 /* Pods-HSFontiOS-acknowledgements.markdown */,
+				4DB6D023B44A810205DCBC5AF8D83228 /* Pods-HSFontiOS-acknowledgements.plist */,
+				18D2EDA1410B5E2E92D60B43C33C724A /* Pods-HSFontiOS-dummy.m */,
+				F5D714D45191937A522296C67C65637D /* Pods-HSFontiOS-frameworks.sh */,
+				AE23437D0310F951EA954B128D9B5E13 /* Pods-HSFontiOS-resources.sh */,
+				1F45CD0EE3ABC85E4B39380AFF3ACA0B /* Pods-HSFontiOS.debug.xcconfig */,
+				89313522C7B717BB71308C6D45A64304 /* Pods-HSFontiOS.release.xcconfig */,
+			);
+			name = "Pods-HSFontiOS";
+			path = "Target Support Files/Pods-HSFontiOS";
+			sourceTree = "<group>";
+		};
+		17A3A9BF215E2E0FBC7D2A9EF4150DEF /* HSFont */ = {
+			isa = PBXGroup;
+			children = (
+				04D97CF9F816F8D6E89C739009188EC2 /* accommon.c */,
+				90ECFDF5A8A205D10F72452B4F7F68F5 /* accommon.h */,
+				34DE7A79168C98D6765418C3B7CD7F85 /* HSColor+Simple.h */,
+				892DC690E37DD64B2623BD3BBDC43C11 /* HSColor+Simple.m */,
+				69E1B39615BD63E8366862A22758250A /* HSFont+Simple.h */,
+				0CCECAFD23572F6A9C161BFDB3A03CAA /* HSFont+Simple.m */,
+				0B9D7F3C066BEDF2F6B24658AA44630A /* HSUtilities.h */,
+			);
+			path = HSFont;
+			sourceTree = "<group>";
+		};
+		28A1CAA3B4AB7E7466BC5C9E2D0FEDED /* Pods-HSFontMac */ = {
+			isa = PBXGroup;
+			children = (
+				986A8B7E97F9262B2B6C4392ADB3ED51 /* Pods-HSFontMac-acknowledgements.markdown */,
+				2AA6FFB504E85231E18A44EB9B1D374B /* Pods-HSFontMac-acknowledgements.plist */,
+				EA97511BD8BD17D3FAD903CB6ACF3A30 /* Pods-HSFontMac-dummy.m */,
+				D0F89EAEB7F72C5A70F630D98F87986A /* Pods-HSFontMac-frameworks.sh */,
+				52228A3F76576A15134B004CB84EF91C /* Pods-HSFontMac-resources.sh */,
+				F6CDE8BE3AB8EFF41CF33186D4FED05E /* Pods-HSFontMac.debug.xcconfig */,
+				C2B48D00AFB535A8B93C219094582B24 /* Pods-HSFontMac.release.xcconfig */,
+			);
+			name = "Pods-HSFontMac";
+			path = "Target Support Files/Pods-HSFontMac";
+			sourceTree = "<group>";
+		};
+		473CE59CF450BA62095396398BF5DE40 /* HSFont */ = {
+			isa = PBXGroup;
+			children = (
+				17A3A9BF215E2E0FBC7D2A9EF4150DEF /* HSFont */,
+				FFB236BD04F38D34FD4392FDFD0D2A10 /* Support Files */,
+			);
+			name = HSFont;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		49EAC298D17775058C628B6CCA46140A /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				84AA009782C352150159947F8518CEB6 /* AppKit.framework */,
+				6B4C8C17292365637D8DC68132131C16 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		5B9CC29C796703B9A3D118BD13D66955 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				473CE59CF450BA62095396398BF5DE40 /* HSFont */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				5B9CC29C796703B9A3D118BD13D66955 /* Development Pods */,
+				A944112664219A87DE27239EDD7E0B22 /* Frameworks */,
+				840DA0790699E30B7935A6C65F5E7CD7 /* Products */,
+				981EA82394B4C4AC5B8C8350D92FDDE2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		840DA0790699E30B7935A6C65F5E7CD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FF43CFE548981E22CDF1A5695C3D818 /* libHSFont-iOS.a */,
+				5342A315DE076BF6B8731AB9D0BB1340 /* libHSFont-OSX.a */,
+				41769C425A9FF7BB869E59B11F07F0A8 /* libPods-HSFontiOS.a */,
+				D39A45DB4ADE2D5EA0495A555F1F1C06 /* libPods-HSFontMac.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		981EA82394B4C4AC5B8C8350D92FDDE2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A85A03155D9EB1B9235360896DC00 /* Pods-HSFontiOS */,
+				28A1CAA3B4AB7E7466BC5C9E2D0FEDED /* Pods-HSFontMac */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A944112664219A87DE27239EDD7E0B22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B28F442E465FAEA57BEC5408ECCD17D3 /* iOS */,
+				49EAC298D17775058C628B6CCA46140A /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B28F442E465FAEA57BEC5408ECCD17D3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				79D96E84C7DE15939C46C8465DF64755 /* Foundation.framework */,
+				08F051F732706DF8957257FEC34FD628 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FFB236BD04F38D34FD4392FDFD0D2A10 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				67DE98AE3C75BEB540793A99BB7C2405 /* HSFont-iOS.xcconfig */,
+				B5A161D2F36A818E3828B32E9CA3D534 /* HSFont-iOS-dummy.m */,
+				3B972B7056C3E3FBCC7FC4F8242B0354 /* HSFont-iOS-prefix.pch */,
+				83415D787EBAAA40ABEE168ECD9C970B /* HSFont-OSX.xcconfig */,
+				82C3558FADF454C32014E5B44C958D3F /* HSFont-OSX-dummy.m */,
+				F011035EFC8015D97195C3CFEF553366 /* HSFont-OSX-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "HSFontDemo/Pods/Target Support Files/HSFont-OSX";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		783A23ED716F70003EFED2A51CB04435 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73E9EB43C1E8D0B72589E2E0295F9A5D /* accommon.h in Headers */,
+				AD0661D7167092EF768613040C131891 /* HSColor+Simple.h in Headers */,
+				D6BDDC5D23C925FA24907E8030EB79A1 /* HSFont+Simple.h in Headers */,
+				0CA57C8E2AFD87936C13E777DE88DEA2 /* HSUtilities.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A5014E712C9DB4916D7A41CC1D17BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D711FE3564958369ECD8ADD75F8B0F8 /* accommon.h in Headers */,
+				F93822082FC4AD8961837DC2D98CA865 /* HSColor+Simple.h in Headers */,
+				1091F5D80663474BB2ED4079C21732C2 /* HSFont+Simple.h in Headers */,
+				5C5A46CC1AFA19A6A40841A0BF6F5AB0 /* HSUtilities.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		659990E786635EC29244F28CAE75482B /* HSFont-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8535A0535C674C1E9D18EAFC43C8C763 /* Build configuration list for PBXNativeTarget "HSFont-OSX" */;
+			buildPhases = (
+				1CF8320665CF77E0C965FC6CC8E56488 /* Sources */,
+				CF96C7150BAFBF9C18B7B3D1E8D0387D /* Frameworks */,
+				783A23ED716F70003EFED2A51CB04435 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HSFont-OSX";
+			productName = "HSFont-OSX";
+			productReference = 5342A315DE076BF6B8731AB9D0BB1340 /* libHSFont-OSX.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8D902F33033CB398ABE7244638F17F34 /* Pods-HSFontiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4812D6F968CF480BF94927EA759AAE4 /* Build configuration list for PBXNativeTarget "Pods-HSFontiOS" */;
+			buildPhases = (
+				AA617D73471AAC21CE6DBC63DDDA2B7A /* Sources */,
+				482D77264F615FECE26088D2D9A3D498 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F92D4DF64FBC7E1248E9E2578EEA5767 /* PBXTargetDependency */,
+			);
+			name = "Pods-HSFontiOS";
+			productName = "Pods-HSFontiOS";
+			productReference = 41769C425A9FF7BB869E59B11F07F0A8 /* libPods-HSFontiOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B5EDAD4002163321C08B36D155BC173D /* Pods-HSFontMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B7FF2168E25BE95DC00B99BA4FD5E06 /* Build configuration list for PBXNativeTarget "Pods-HSFontMac" */;
+			buildPhases = (
+				F44C9EDC44DE60C2C7983AF329CD8FF1 /* Sources */,
+				7DC6298C588A1E1E298ED7A4C75A887A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3D5E62745AFAE66F16141D6CC5D72DF /* PBXTargetDependency */,
+			);
+			name = "Pods-HSFontMac";
+			productName = "Pods-HSFontMac";
+			productReference = D39A45DB4ADE2D5EA0495A555F1F1C06 /* libPods-HSFontMac.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F6C78FB9E6C12F00BC2A47668CE43B7E /* HSFont-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34FC0B78B25189F7D373A215A93A3AE9 /* Build configuration list for PBXNativeTarget "HSFont-iOS" */;
+			buildPhases = (
+				DAEC4916FB2B108C37002E1C93F06B53 /* Sources */,
+				4F981430AB44C94169F8973CC5B676E7 /* Frameworks */,
+				96A5014E712C9DB4916D7A41CC1D17BD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HSFont-iOS";
+			productName = "HSFont-iOS";
+			productReference = 0FF43CFE548981E22CDF1A5695C3D818 /* libHSFont-iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 840DA0790699E30B7935A6C65F5E7CD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6C78FB9E6C12F00BC2A47668CE43B7E /* HSFont-iOS */,
+				659990E786635EC29244F28CAE75482B /* HSFont-OSX */,
+				8D902F33033CB398ABE7244638F17F34 /* Pods-HSFontiOS */,
+				B5EDAD4002163321C08B36D155BC173D /* Pods-HSFontMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CF8320665CF77E0C965FC6CC8E56488 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D06CB991F3090CC360FAAD59FEC42811 /* accommon.c in Sources */,
+				BEDA3DF6E79501AB91C87B5160B61E67 /* HSColor+Simple.m in Sources */,
+				612A29D266A7285C53B7637D7EE90750 /* HSFont+Simple.m in Sources */,
+				95534B45184F3A114FD276169E2BFC88 /* HSFont-OSX-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA617D73471AAC21CE6DBC63DDDA2B7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869B6F82E0248032577DC2067FB77A7C /* Pods-HSFontiOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAEC4916FB2B108C37002E1C93F06B53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49D19424EF541A1AC10DF42F1FABDB4 /* accommon.c in Sources */,
+				3FD3860C2F98560C1C829A9F522BF5E7 /* HSColor+Simple.m in Sources */,
+				37A7952433F8005E6A52D62A161A3C5A /* HSFont+Simple.m in Sources */,
+				F5B654DF36564D7ABBDF0B6C8162C419 /* HSFont-iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44C9EDC44DE60C2C7983AF329CD8FF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B21D80A2C83723FD99A96F5CD4C5B4B8 /* Pods-HSFontMac-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3D5E62745AFAE66F16141D6CC5D72DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "HSFont-OSX";
+			target = 659990E786635EC29244F28CAE75482B /* HSFont-OSX */;
+			targetProxy = 8C22F2C2E0081DC4A92DC4A0DAF6EFAA /* PBXContainerItemProxy */;
+		};
+		F92D4DF64FBC7E1248E9E2578EEA5767 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "HSFont-iOS";
+			target = F6C78FB9E6C12F00BC2A47668CE43B7E /* HSFont-iOS */;
+			targetProxy = 6BEF8BB1C9933C2390C6129FD1EE8201 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		079AAD764ADFC5C7C3A7465C49EAD4B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89313522C7B717BB71308C6D45A64304 /* Pods-HSFontiOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		20376C48B1BAA0D53593C7C5DCE7B01E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67DE98AE3C75BEB540793A99BB7C2405 /* HSFont-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HSFont-iOS/HSFont-iOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		347EC78108982821E4FE64AE33B568F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83415D787EBAAA40ABEE168ECD9C970B /* HSFont-OSX.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HSFont-OSX/HSFont-OSX-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		59FD935993CA6121338E682DB8E00AB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6CDE8BE3AB8EFF41CF33186D4FED05E /* Pods-HSFontMac.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5C7E796F2701CB5BD543C74F8F5B51B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F45CD0EE3ABC85E4B39380AFF3ACA0B /* Pods-HSFontiOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8A88331EDD9A6860385E44C0A10D2901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67DE98AE3C75BEB540793A99BB7C2405 /* HSFont-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HSFont-iOS/HSFont-iOS-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		94101DD0F8E16BF60727BD5525AA46F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83415D787EBAAA40ABEE168ECD9C970B /* HSFont-OSX.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HSFont-OSX/HSFont-OSX-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C620AB39C53F34E24BDEF74D201BE922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2B48D00AFB535A8B93C219094582B24 /* Pods-HSFontMac.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D4FB579CA46FAB0F2426E295AA45A5ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EB39CD07A07FAE508821C862BC82BBF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B7FF2168E25BE95DC00B99BA4FD5E06 /* Build configuration list for PBXNativeTarget "Pods-HSFontMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59FD935993CA6121338E682DB8E00AB1 /* Debug */,
+				C620AB39C53F34E24BDEF74D201BE922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4FB579CA46FAB0F2426E295AA45A5ED /* Debug */,
+				EB39CD07A07FAE508821C862BC82BBF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34FC0B78B25189F7D373A215A93A3AE9 /* Build configuration list for PBXNativeTarget "HSFont-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20376C48B1BAA0D53593C7C5DCE7B01E /* Debug */,
+				8A88331EDD9A6860385E44C0A10D2901 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8535A0535C674C1E9D18EAFC43C8C763 /* Build configuration list for PBXNativeTarget "HSFont-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94101DD0F8E16BF60727BD5525AA46F1 /* Debug */,
+				347EC78108982821E4FE64AE33B568F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4812D6F968CF480BF94927EA759AAE4 /* Build configuration list for PBXNativeTarget "Pods-HSFontiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C7E796F2701CB5BD543C74F8F5B51B8 /* Debug */,
+				079AAD764ADFC5C7C3A7465C49EAD4B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
