@@ -11,16 +11,16 @@
 
 [![Build Status](https://travis-ci.org/ccworld1000/HSFont.svg?branch=master)](https://travis-ci.org/ccworld1000/HSFont)
 
-[CN README](README.CN.md)
+[英文README](README.md)
 
-simple support MAC OSX [>=10.9] and iOS [>=8]
+简单支持 MAC OSX [>=10.9] 和 iOS [>=8]
 
 [https://github.com/ccworld1000/HSFont.git](https://github.com/ccworld1000/HSFont.git)
 
 ##bug 
-Email ： <a href="mailto:ccworld1000@gmail.com">ccworld1000@gmail.com</a>
+邮件 ： <a href="mailto:ccworld1000@gmail.com">ccworld1000@gmail.com</a>
 
-## Screenshot 1
+## 截图 1
 
 ### OSX
 ![HSFont HSFontMac Screenshot](https://github.com/ccworld1000/HSFont/blob/master/HSFontMac.gif?raw=true)
@@ -29,10 +29,10 @@ Email ： <a href="mailto:ccworld1000@gmail.com">ccworld1000@gmail.com</a>
 ![HSFont HSFontiOS Screenshot](https://github.com/ccworld1000/HSFont/blob/master/HSFontiOS.gif?raw=true)
 
 ## HSFont
-HSFont simple support machosx and iOS, can simple replace NSFont or UIFont.
+HSFont 简单支持 machosx 与 iOS, 可以简单取代 NSFont 或者 UIFont.
 
 ## HSColor
-HSColor simple support machosx and iOS, can simple replace NSColor or UIColor hex string.
+HSColor 单支持  machosx 与 iOS, 可以简单取代 NSColor 或者 UIColor 十六进制字符串.
 
 ## Podfile
 
@@ -40,15 +40,15 @@ HSColor simple support machosx and iOS, can simple replace NSColor or UIColor he
 pod 'HSFont'
 ```
 
-## usage
+## 用法
 ```objective-c
 #import <HSUtilities.h>
 ```
-# or
+# 或
 ```objective-c
 #import <HSFont/HSUtilities.h>
 ```
-# demo code
+# 演示代码
 ```objective-c
     HSView *p = superView;
     __block NSUInteger index = 0;
@@ -99,7 +99,7 @@ pod 'HSFont'
 
 ```
 
-## MIT License
+## MIT 许可证
 MIT License
 
 Copyright (c) 2016-2017 ccworld1000 | bug : <a href="mailto:ccworld1000@gmail.com">ccworld1000@gmail.com</a>
