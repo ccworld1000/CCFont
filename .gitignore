@@ -1,3 +1,7 @@
+Pods
+Podfile.lock
+HSFontDemo/Pods/*
+HSFontDemo/Podfile.lock
 _Store
 build/
 *.pbxuser
