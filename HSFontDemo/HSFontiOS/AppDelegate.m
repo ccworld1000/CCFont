@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import <Google/Analytics.h>
+#import <Flurry.h>
 
 @interface AppDelegate ()
 
@@ -15,6 +16,9 @@
 
 @implementation AppDelegate
 
+- (void) loadingFlurry {
+    [Flurry startSession:@"46Z4HN25GVYF5GZJD66K"];
+}
 
 - (void) loadingGA {
     NSError *configureError;
@@ -30,7 +34,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
+    [self loadingFlurry];
     [self loadingGA];
     
     return YES;
