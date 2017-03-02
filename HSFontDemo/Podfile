@@ -6,7 +6,7 @@ target 'HSFontiOS' do
   # use_frameworks!
 
   # Pods for HSFontiOS
-	pod 'HSFont', path:'..'
+	pod 'HSFont'
     pod 'Google/Analytics'
     pod 'Google/SignIn'
     
@@ -19,6 +19,6 @@ target 'HSFontMac' do
   # use_frameworks!
 
   # Pods for HSFontMac
-    pod 'HSFont’, path:'..'
+    pod 'HSFont'
 
 end
