@@ -6,12 +6,8 @@ target 'HSFontiOS' do
   # use_frameworks!
 
   # Pods for HSFontiOS
+    pod 'CCStat'
 	pod 'HSFont'
-    pod 'Google/Analytics'
-    pod 'Google/SignIn'
-    
-    pod 'Flurry-iOS-SDK/FlurrySDK'
-    pod 'Flurry-iOS-SDK/FlurryAds'
 end
 
 target 'HSFontMac' do
