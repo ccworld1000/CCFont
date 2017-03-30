@@ -15,3 +15,6 @@ script:
  - pod install
  - cd ..
 # - xcodebuild -workspace HSFontDemo.xcworkspace -scheme HSFontiOS  build -sdk iphonesimulator
+
+notifications:
+email: false
