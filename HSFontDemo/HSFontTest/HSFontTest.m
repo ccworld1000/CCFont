@@ -66,6 +66,14 @@
                 r.textColor = [HSColor colorWithHexString:[NSString stringWithFormat:@"%lx%x%lx", index * 4, 255, index * 8]];
             }
             
+            if (index == 10) {
+                l.textColor = HSColorRGB(90, 90, 90);
+//                l.textColor = HSColorRGB(0, 90, 90);
+                l.textColor = HSColorRGB(255, 0, 0);
+                l.textColor = HSColorRGB(0, 255, 0);
+                l.textColor = HSColorRGB(0, 0, 255);
+            }
+            
             l.frame = CGRectMake(accommon_calc_dimension(space), index * height, accommon_calc_dimension(width), height);
             r.frame = CGRectMake(accommon_calc_dimension(width + space), index * height, accommon_calc_dimension(width), height);
             

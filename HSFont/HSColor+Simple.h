@@ -8,6 +8,40 @@
 
 #import "HSUtilities.h"
 
+/**
+ *  HSColorRGBWithAlpha  | r,g,b [0 - 255] alpha [0 - 1] [C Style]
+ *
+ *  @param r     r description
+ *  @param g     g description
+ *  @param b     b description
+ *  @param alpha alpha description
+ *
+ *  @return return value description
+ */
+FOUNDATION_EXPORT HSColor * HSColorRGBWithAlpha (NSInteger r, NSInteger g, NSInteger b, CGFloat alpha);
+
+/**
+ *  HSColorRGB | r,g,b [0 - 255] [C Style]
+ *
+ *  @param r r description
+ *  @param g g description
+ *  @param b b description
+ *
+ *  @return return value description
+ */
+FOUNDATION_EXPORT HSColor * HSColorRGB (NSInteger r, NSInteger g, NSInteger b);
+
+/**
+ *  HSColorWithHexString | [C Style]
+ *
+ *  @param hexString hexString description
+ *
+ *  @return return value description
+ */
+FOUNDATION_EXPORT HSColor * HSColorWithHexString (NSString *hexString);
+
+
+
 @interface HSColor (Simple)
 
 /**

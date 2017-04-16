@@ -8,6 +8,26 @@
 
 #import "HSColor+Simple.h"
 
+HSColor * HSColorRGB (NSInteger r, NSInteger g, NSInteger b) {
+    return HSColorRGBWithAlpha(r, g, b, 1);
+}
+
+HSColor * HSColorRGBWithAlpha (NSInteger r, NSInteger g, NSInteger b, CGFloat alpha) {
+    CGFloat a = alpha;
+    if (a < 0) {
+        a = 0;
+    } else if (a > 1) {
+        a = 1;
+    }
+    
+    return [HSColor colorWithRed:r / 255. green:g / 255. blue:b / 255. alpha: a];
+}
+
+HSColor * HSColorWithHexString (NSString *hexString) {
+    return [HSColor colorWithHexString:hexString];
+}
+
+
 @implementation HSColor (Simple)
 
 + (HSColor *)colorWithHexString: (NSString *)hexString {
