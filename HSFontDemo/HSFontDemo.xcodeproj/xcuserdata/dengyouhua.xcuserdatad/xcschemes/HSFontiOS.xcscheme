@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "00795C191E482F6A00A9554A"
+               BlueprintIdentifier = "00795C721E48326700A9554A"
                BuildableName = "HSFontiOS.app"
                BlueprintName = "HSFontiOS"
                ReferencedContainer = "container:HSFontDemo.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "00795C191E482F6A00A9554A"
+            BlueprintIdentifier = "00795C721E48326700A9554A"
             BuildableName = "HSFontiOS.app"
             BlueprintName = "HSFontiOS"
             ReferencedContainer = "container:HSFontDemo.xcodeproj">
@@ -55,12 +55,19 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "00795C191E482F6A00A9554A"
+            BlueprintIdentifier = "00795C721E48326700A9554A"
             BuildableName = "HSFontiOS.app"
             BlueprintName = "HSFontiOS"
             ReferencedContainer = "container:HSFontDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "OS_ACTIVITY_MODE"
+            value = "disable"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -74,7 +81,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "00795C191E482F6A00A9554A"
+            BlueprintIdentifier = "00795C721E48326700A9554A"
             BuildableName = "HSFontiOS.app"
             BlueprintName = "HSFontiOS"
             ReferencedContainer = "container:HSFontDemo.xcodeproj">

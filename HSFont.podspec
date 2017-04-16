@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "HSFont"
-  s.version      = "1.1.0"
+  s.version      = "2.0.0"
   s.summary      = "A simple iOS and OS X HSFont replace [UIFont, NSFont], HSColor replace [UIColor, NSColor]"
   s.homepage     = "https://github.com/ccworld1000"
   s.license      = "MIT"

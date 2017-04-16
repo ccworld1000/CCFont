@@ -21,6 +21,7 @@
 		00795C821E48326700A9554A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00795C811E48326700A9554A /* Assets.xcassets */; };
 		00795C851E48326700A9554A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00795C831E48326700A9554A /* LaunchScreen.storyboard */; };
 		00795CA41E48329400A9554A /* HSFontTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 00795CA31E48329400A9554A /* HSFontTest.m */; };
+		00C44EA81E5D63B60012561B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00C44EA71E5D63B60012561B /* GoogleService-Info.plist */; };
 		A5AE9CE61A7B3A1B3D126EBC /* libPods-HSFontiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E185C92975178FE9C156A7E /* libPods-HSFontiOS.a */; };
 		EC808BB31A3B27D04F6C25D2 /* libPods-HSFontMac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 040F9EFABE9EC429139EECEE /* libPods-HSFontMac.a */; };
 /* End PBXBuildFile section */
@@ -47,6 +48,7 @@
 		00795C861E48326700A9554A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00795CA21E48329400A9554A /* HSFontTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSFontTest.h; sourceTree = "<group>"; };
 		00795CA31E48329400A9554A /* HSFontTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSFontTest.m; sourceTree = "<group>"; };
+		00C44EA71E5D63B60012561B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		040F9EFABE9EC429139EECEE /* libPods-HSFontMac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HSFontMac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0471EE4E34D6DC1CFA1FDCF4 /* Pods-HSFontiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSFontiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HSFontiOS/Pods-HSFontiOS.debug.xcconfig"; sourceTree = "<group>"; };
 		0E185C92975178FE9C156A7E /* libPods-HSFontiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HSFontiOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,6 +141,7 @@
 				00795C811E48326700A9554A /* Assets.xcassets */,
 				00795C831E48326700A9554A /* LaunchScreen.storyboard */,
 				00795C861E48326700A9554A /* Info.plist */,
+				00C44EA71E5D63B60012561B /* GoogleService-Info.plist */,
 				00795C751E48326700A9554A /* Supporting Files */,
 			);
 			path = HSFontiOS;
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00795C851E48326700A9554A /* LaunchScreen.storyboard in Resources */,
+				00C44EA81E5D63B60012561B /* GoogleService-Info.plist in Resources */,
 				00795C821E48326700A9554A /* Assets.xcassets in Resources */,
 				00795C801E48326700A9554A /* Main.storyboard in Resources */,
 			);
