@@ -8,7 +8,12 @@
 
 #import "HSFont+Simple.h"
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored"-Wincomplete-implementation"
+
 @implementation HSFont (Simple)
 
 
 @end
+
+#pragma clang diagnostic pop

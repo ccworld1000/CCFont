@@ -7,7 +7,7 @@ target 'HSFontiOS' do
 
   # Pods for HSFontiOS
     pod 'CCStat'
-    pod 'HSFont'
+    pod 'HSFont', path:".."
 end
 
 target 'HSFontMac' do
@@ -15,6 +15,6 @@ target 'HSFontMac' do
   # use_frameworks!
 
   # Pods for HSFontMac
-    pod 'HSFont'
+    pod 'HSFont', path:".."
 
 end

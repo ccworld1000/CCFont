@@ -27,6 +27,8 @@ HSColor * HSColorWithHexString (NSString *hexString) {
     return [HSColor colorWithHexString:hexString];
 }
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored"-Wincomplete-implementation"
 
 @implementation HSColor (Simple)
 
@@ -50,3 +52,6 @@ HSColor * HSColorWithHexString (NSString *hexString) {
 }
 
 @end
+
+#pragma clang diagnostic pop
+

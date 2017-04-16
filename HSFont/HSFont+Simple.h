@@ -8,6 +8,8 @@
 
 #import "HSUtilities.h"
 
+#pragma clang diagnostic push
+
 @interface HSFont (Simple)
 
 /**
@@ -40,3 +42,5 @@
 
 
 @end
+
+#pragma clang diagnostic pop
