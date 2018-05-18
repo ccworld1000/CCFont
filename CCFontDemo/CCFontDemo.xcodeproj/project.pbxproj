@@ -22,7 +22,9 @@
 		00795C851E48326700A9554A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00795C831E48326700A9554A /* LaunchScreen.storyboard */; };
 		00795CA41E48329400A9554A /* HSFontTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 00795CA31E48329400A9554A /* HSFontTest.m */; };
 		00C44EA81E5D63B60012561B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00C44EA71E5D63B60012561B /* GoogleService-Info.plist */; };
+		9E6A34B4595FA565FCA518EF /* libPods-CCFontiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACF6F54FDC41196A83EF0F13 /* libPods-CCFontiOS.a */; };
 		A5AE9CE61A7B3A1B3D126EBC /* libPods-HSFontiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E185C92975178FE9C156A7E /* libPods-HSFontiOS.a */; };
+		DF1B22DFD96FB24DB53E28F9 /* libPods-CCFontMac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB389CD8A4B8C5C570F32DB2 /* libPods-CCFontMac.a */; };
 		EC808BB31A3B27D04F6C25D2 /* libPods-HSFontMac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 040F9EFABE9EC429139EECEE /* libPods-HSFontMac.a */; };
 /* End PBXBuildFile section */
 
@@ -59,9 +61,15 @@
 		040F9EFABE9EC429139EECEE /* libPods-HSFontMac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HSFontMac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0471EE4E34D6DC1CFA1FDCF4 /* Pods-HSFontiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSFontiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HSFontiOS/Pods-HSFontiOS.debug.xcconfig"; sourceTree = "<group>"; };
 		0E185C92975178FE9C156A7E /* libPods-HSFontiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HSFontiOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		702C493B16B8FE47C565D0C1 /* Pods-CCFontiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCFontiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCFontiOS/Pods-CCFontiOS.release.xcconfig"; sourceTree = "<group>"; };
 		85E6E1610978E1F13DBC58C2 /* Pods-HSFontMac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSFontMac.release.xcconfig"; path = "Pods/Target Support Files/Pods-HSFontMac/Pods-HSFontMac.release.xcconfig"; sourceTree = "<group>"; };
+		AB389CD8A4B8C5C570F32DB2 /* libPods-CCFontMac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCFontMac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF6F54FDC41196A83EF0F13 /* libPods-CCFontiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCFontiOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5AD552210417C48B6E60048 /* Pods-HSFontiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSFontiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-HSFontiOS/Pods-HSFontiOS.release.xcconfig"; sourceTree = "<group>"; };
+		DD6DFF03DFF809183E48F252 /* Pods-CCFontMac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCFontMac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCFontMac/Pods-CCFontMac.debug.xcconfig"; sourceTree = "<group>"; };
+		EC2801CF73EFD25537753CD4 /* Pods-CCFontMac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCFontMac.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCFontMac/Pods-CCFontMac.release.xcconfig"; sourceTree = "<group>"; };
 		EF1CE2088087EBDDC82B0C6B /* Pods-HSFontMac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSFontMac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HSFontMac/Pods-HSFontMac.debug.xcconfig"; sourceTree = "<group>"; };
+		EFD306E81E725CB75CF86CE8 /* Pods-CCFontiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCFontiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCFontiOS/Pods-CCFontiOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +78,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC808BB31A3B27D04F6C25D2 /* libPods-HSFontMac.a in Frameworks */,
+				DF1B22DFD96FB24DB53E28F9 /* libPods-CCFontMac.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +87,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5AE9CE61A7B3A1B3D126EBC /* libPods-HSFontiOS.a in Frameworks */,
+				9E6A34B4595FA565FCA518EF /* libPods-CCFontiOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +193,8 @@
 			children = (
 				040F9EFABE9EC429139EECEE /* libPods-HSFontMac.a */,
 				0E185C92975178FE9C156A7E /* libPods-HSFontiOS.a */,
+				AB389CD8A4B8C5C570F32DB2 /* libPods-CCFontMac.a */,
+				ACF6F54FDC41196A83EF0F13 /* libPods-CCFontiOS.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -194,6 +206,10 @@
 				85E6E1610978E1F13DBC58C2 /* Pods-HSFontMac.release.xcconfig */,
 				0471EE4E34D6DC1CFA1FDCF4 /* Pods-HSFontiOS.debug.xcconfig */,
 				D5AD552210417C48B6E60048 /* Pods-HSFontiOS.release.xcconfig */,
+				DD6DFF03DFF809183E48F252 /* Pods-CCFontMac.debug.xcconfig */,
+				EC2801CF73EFD25537753CD4 /* Pods-CCFontMac.release.xcconfig */,
+				EFD306E81E725CB75CF86CE8 /* Pods-CCFontiOS.debug.xcconfig */,
+				702C493B16B8FE47C565D0C1 /* Pods-CCFontiOS.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -209,8 +225,6 @@
 				000CD8F71E4842C700B4EF31 /* Sources */,
 				000CD8F81E4842C700B4EF31 /* Frameworks */,
 				000CD8F91E4842C700B4EF31 /* Resources */,
-				BF2BFC7B943D1D4519B54BBB /* [CP] Embed Pods Frameworks */,
-				983E70FD488C7EC5D05AF1ED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,8 +243,6 @@
 				00795C6F1E48326700A9554A /* Sources */,
 				00795C701E48326700A9554A /* Frameworks */,
 				00795C711E48326700A9554A /* Resources */,
-				421837830FC7F115E661870A /* [CP] Embed Pods Frameworks */,
-				97308D73AEE4130020558E0E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -303,79 +315,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		421837830FC7F115E661870A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HSFontiOS/Pods-HSFontiOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		813ED15BEE06092C9D386162 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CCFontMac-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		97308D73AEE4130020558E0E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HSFontiOS/Pods-HSFontiOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		983E70FD488C7EC5D05AF1ED /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HSFontMac/Pods-HSFontMac-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BF2BFC7B943D1D4519B54BBB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HSFontMac/Pods-HSFontMac-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F4B20EB5674829A627D05E95 /* [CP] Check Pods Manifest.lock */ = {
@@ -384,13 +339,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CCFontiOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -451,7 +409,7 @@
 /* Begin XCBuildConfiguration section */
 		000CD90D1E4842C700B4EF31 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF1CE2088087EBDDC82B0C6B /* Pods-HSFontMac.debug.xcconfig */;
+			baseConfigurationReference = DD6DFF03DFF809183E48F252 /* Pods-CCFontMac.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -505,7 +463,7 @@
 		};
 		000CD90E1E4842C700B4EF31 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85E6E1610978E1F13DBC58C2 /* Pods-HSFontMac.release.xcconfig */;
+			baseConfigurationReference = EC2801CF73EFD25537753CD4 /* Pods-CCFontMac.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -564,7 +522,7 @@
 		};
 		00795C881E48326700A9554A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0471EE4E34D6DC1CFA1FDCF4 /* Pods-HSFontiOS.debug.xcconfig */;
+			baseConfigurationReference = EFD306E81E725CB75CF86CE8 /* Pods-CCFontiOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -618,7 +576,7 @@
 		};
 		00795C891E48326700A9554A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5AD552210417C48B6E60048 /* Pods-HSFontiOS.release.xcconfig */;
+			baseConfigurationReference = 702C493B16B8FE47C565D0C1 /* Pods-CCFontiOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;

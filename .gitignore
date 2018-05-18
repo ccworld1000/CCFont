@@ -1,7 +1,7 @@
 Pods
 Podfile.lock
-HSFontDemo/Pods/*
-HSFontDemo/Podfile.lock
+CCFontDemo/Pods/*
+CCFontDemo/Podfile.lock
 _Store
 build/
 *.pbxuser
@@ -17,3 +17,4 @@ profile
 DerivedData
 
 *.swp
+*.podspec

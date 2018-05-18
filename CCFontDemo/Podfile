@@ -1,20 +1,22 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'HSFontiOS' do
+project 'CCFontDemo.xcodeproj'
+
+target 'CCFontiOS' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
 
-  # Pods for HSFontiOS
+  # Pods for CCFontiOS
     pod 'CCStat'
-    pod 'HSFont', path:".."
+    pod 'CCFont', path:".."
 end
 
-target 'HSFontMac' do
+target 'CCFontMac' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
 
-  # Pods for HSFontMac
-    pod 'HSFont', path:".."
+  # Pods for CCFontMac
+    pod 'CCFont', path:".."
 
 end
