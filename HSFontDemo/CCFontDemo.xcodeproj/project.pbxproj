@@ -107,7 +107,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		00120AF120AEED320050B799 /* HSFont */ = {
+		00120AF120AEED320050B799 /* CCFont */ = {
 			isa = PBXGroup;
 			children = (
 				00120AF220AEED320050B799 /* accommon.c */,
@@ -118,14 +118,14 @@
 				00120AF720AEED320050B799 /* HSUtilities.h */,
 				00120AF820AEED320050B799 /* HSColor+Simple.m */,
 			);
-			name = HSFont;
-			path = ../HSFont;
+			name = CCFont;
+			path = ../CCFont;
 			sourceTree = "<group>";
 		};
 		00795C0F1E482EFD00A9554A = {
 			isa = PBXGroup;
 			children = (
-				00120AF120AEED320050B799 /* HSFont */,
+				00120AF120AEED320050B799 /* CCFont */,
 				00795C641E4830BD00A9554A /* HSFontTest */,
 				00795C741E48326700A9554A /* CCFontiOS */,
 				000CD8FC1E4842C700B4EF31 /* CCFontMac */,
