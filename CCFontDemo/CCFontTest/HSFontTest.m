@@ -1,12 +1,12 @@
 //
-//  HSFontTest.m
-//  HSFontDemo
+//  CCFontTest.m
+//  CCFontDemo
 //
 //  Created by dengyouhua on 17/2/6.
 //  Copyright © 2017年 cc | ccworld1000@gmail.com. All rights reserved.
 //
 
-#import "HSFontTest.h"
+#import "CCFontTest.h"
 #import <HSUtilities.h>
 
 #import "TargetConditionals.h"
@@ -19,7 +19,7 @@
 #define HSView NSView
 #endif
 
-@implementation HSFontTest
+@implementation CCFontTest
 
 + (void) viewDidLoadTest : (id) superView {
     if (!superView) {
@@ -39,8 +39,8 @@
         while (index < 10) {
             NSInteger i = 10 + index++;
             
-            NSString *leftText = [NSString stringWithFormat:@"L : HSFont %ld",  i];
-            NSString *rightText = [NSString stringWithFormat:@"R : HSFont %ld",  i];
+            NSString *leftText = [NSString stringWithFormat:@"L : CCFont %ld",  i];
+            NSString *rightText = [NSString stringWithFormat:@"R : CCFont %ld",  i];
             
 #if TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR
             UILabel *l = [UILabel new];
@@ -55,23 +55,23 @@
             r.stringValue = rightText;
 #endif
             
-            l.font = [HSFont systemFontOfSize: i];
-            r.font = [HSFont systemFontOfSize: accommon_calc_dimension(i)];
+            l.font = [CCFont systemFontOfSize: i];
+            r.font = [CCFont systemFontOfSize: accommon_calc_dimension(i)];
             
             if (index % 2) {
-                l.textColor = [HSColor colorWithHexString:[NSString stringWithFormat:@"%f%lx%lx", 255 / (index * 1.), index * 4, index * 8]];
-                r.textColor = [HSColor colorWithHexString:[NSString stringWithFormat:@"%f%lx%lx", 255 / (index * 1.), index * 4, index * 8]];
+                l.textColor = [CCColor colorWithHexString:[NSString stringWithFormat:@"%f%lx%lx", 255 / (index * 1.), index * 4, index * 8]];
+                r.textColor = [CCColor colorWithHexString:[NSString stringWithFormat:@"%f%lx%lx", 255 / (index * 1.), index * 4, index * 8]];
             } else {
-                l.textColor = [HSColor colorWithHexString:[NSString stringWithFormat:@"%lx%x%lx", index * 4, 255, index * 8]];
-                r.textColor = [HSColor colorWithHexString:[NSString stringWithFormat:@"%lx%x%lx", index * 4, 255, index * 8]];
+                l.textColor = [CCColor colorWithHexString:[NSString stringWithFormat:@"%lx%x%lx", index * 4, 255, index * 8]];
+                r.textColor = [CCColor colorWithHexString:[NSString stringWithFormat:@"%lx%x%lx", index * 4, 255, index * 8]];
             }
             
             if (index == 10) {
-                l.textColor = HSColorRGB(90, 90, 90);
-//                l.textColor = HSColorRGB(0, 90, 90);
-                l.textColor = HSColorRGB(255, 0, 0);
-                l.textColor = HSColorRGB(0, 255, 0);
-                l.textColor = HSColorRGB(0, 0, 255);
+                l.textColor = CCColorRGB(90, 90, 90);
+//                l.textColor = CCColorRGB(0, 90, 90);
+                l.textColor = CCColorRGB(255, 0, 0);
+                l.textColor = CCColorRGB(0, 255, 0);
+                l.textColor = CCColorRGB(0, 0, 255);
             }
             
             l.frame = CGRectMake(accommon_calc_dimension(space), index * height, accommon_calc_dimension(width), height);

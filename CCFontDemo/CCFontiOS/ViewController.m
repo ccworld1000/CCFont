@@ -1,13 +1,13 @@
 //
 //  ViewController.m
-//  HSFontiOS
+//  CCFontiOS
 //
 //  Created by dengyouhua on 17/2/6.
 //  Copyright © 2017年 cc | ccworld1000@gmail.com. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "HSFontTest.h"
+#import "CCFontTest.h"
 
 @interface ViewController ()
 
@@ -19,7 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-     [HSFontTest viewDidLoadTest: self.view];
+     [CCFontTest viewDidLoadTest: self.view];
 }
 
 

@@ -22,8 +22,8 @@
 ## CCFont
 CCFont 简单支持 machosx 与 iOS, 可以简单取代 NSFont 或者 UIFont.
 
-## HSColor
-HSColor 单支持  machosx 与 iOS, 可以简单取代 NSColor 或者 UIColor 十六进制字符串.
+## CCColor
+CCColor 单支持  machosx 与 iOS, 可以简单取代 NSColor 或者 UIColor 十六进制字符串.
 
 ## Podfile
 
@@ -73,11 +73,11 @@ pod 'CCFont'
             r.font = [CCFont systemFontOfSize: accommon_calc_dimension(i)];
             
             if (index % 2) {
-                l.textColor = [HSColor colorWithHexString:[NSString stringWithFormat:@"%f%lx%lx", 255 / (index * 1.), index * 4, index * 8]];
-                r.textColor = [HSColor colorWithHexString:[NSString stringWithFormat:@"%f%lx%lx", 255 / (index * 1.), index * 4, index * 8]];
+                l.textColor = [CCColor colorWithHexString:[NSString stringWithFormat:@"%f%lx%lx", 255 / (index * 1.), index * 4, index * 8]];
+                r.textColor = [CCColor colorWithHexString:[NSString stringWithFormat:@"%f%lx%lx", 255 / (index * 1.), index * 4, index * 8]];
             } else {
-                l.textColor = [HSColor colorWithHexString:[NSString stringWithFormat:@"%lx%x%lx", index * 4, 255, index * 8]];
-                r.textColor = [HSColor colorWithHexString:[NSString stringWithFormat:@"%lx%x%lx", index * 4, 255, index * 8]];
+                l.textColor = [CCColor colorWithHexString:[NSString stringWithFormat:@"%lx%x%lx", index * 4, 255, index * 8]];
+                r.textColor = [CCColor colorWithHexString:[NSString stringWithFormat:@"%lx%x%lx", index * 4, 255, index * 8]];
             }
             
             l.frame = CGRectMake(accommon_calc_dimension(space), index * height, accommon_calc_dimension(width), height);

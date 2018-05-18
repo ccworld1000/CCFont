@@ -39,12 +39,12 @@
 		000CD9091E4842C700B4EF31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		000CD90B1E4842C700B4EF31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00120AF220AEED320050B799 /* CCHalf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CCHalf.c; sourceTree = "<group>"; };
-		00120AF320AEED320050B799 /* HSFont+Simple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HSFont+Simple.h"; sourceTree = "<group>"; };
-		00120AF420AEED320050B799 /* HSColor+Simple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HSColor+Simple.h"; sourceTree = "<group>"; };
+		00120AF320AEED320050B799 /* CCFont+Simple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CCFont+Simple.h"; sourceTree = "<group>"; };
+		00120AF420AEED320050B799 /* CCColor+Simple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CCColor+Simple.h"; sourceTree = "<group>"; };
 		00120AF520AEED320050B799 /* CCHalf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCHalf.h; sourceTree = "<group>"; };
-		00120AF620AEED320050B799 /* HSFont+Simple.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HSFont+Simple.m"; sourceTree = "<group>"; };
-		00120AF720AEED320050B799 /* HSUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSUtilities.h; sourceTree = "<group>"; };
-		00120AF820AEED320050B799 /* HSColor+Simple.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HSColor+Simple.m"; sourceTree = "<group>"; };
+		00120AF620AEED320050B799 /* CCFont+Simple.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CCFont+Simple.m"; sourceTree = "<group>"; };
+		00120AF720AEED320050B799 /* CCUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCUtilities.h; sourceTree = "<group>"; };
+		00120AF820AEED320050B799 /* CCColor+Simple.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CCColor+Simple.m"; sourceTree = "<group>"; };
 		00795C731E48326700A9554A /* CCFontiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCFontiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00795C761E48326700A9554A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		00795C781E48326700A9554A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -122,11 +122,11 @@
 			children = (
 				00120AF520AEED320050B799 /* CCHalf.h */,
 				00120AF220AEED320050B799 /* CCHalf.c */,
-				00120AF320AEED320050B799 /* HSFont+Simple.h */,
-				00120AF420AEED320050B799 /* HSColor+Simple.h */,
-				00120AF620AEED320050B799 /* HSFont+Simple.m */,
-				00120AF720AEED320050B799 /* HSUtilities.h */,
-				00120AF820AEED320050B799 /* HSColor+Simple.m */,
+				00120AF320AEED320050B799 /* CCFont+Simple.h */,
+				00120AF420AEED320050B799 /* CCColor+Simple.h */,
+				00120AF620AEED320050B799 /* CCFont+Simple.m */,
+				00120AF720AEED320050B799 /* CCUtilities.h */,
+				00120AF820AEED320050B799 /* CCColor+Simple.m */,
 			);
 			name = CCFont;
 			path = ../CCFont;

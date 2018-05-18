@@ -1,16 +1,16 @@
 //
-//  HSFont+Simple.h
-//  HSFont
+//  CCFont+Simple.h
+//  CCFont
 //
 //  Created by dengyouhua on 16/10/19.
 //  Copyright © 2016年 cc ccworld1000@gmail.com. All rights reserved.
 //
 
-#import "HSUtilities.h"
+#import "CCUtilities.h"
 
 #pragma clang diagnostic push
 
-@interface HSFont (Simple)
+@interface CCFont (Simple)
 
 /**
  *  fontWithName
@@ -20,7 +20,7 @@
  *
  *  @return return value description
  */
-+ (HSFont *)fontWithName:(NSString *)fontName size:(CGFloat)fontSize;
++ (CCFont *)fontWithName:(NSString *)fontName size:(CGFloat)fontSize;
 
 /**
  *  systemFontOfSize
@@ -29,7 +29,7 @@
  *
  *  @return return value description
  */
-+ (HSFont *)systemFontOfSize:(CGFloat)fontSize;
++ (CCFont *)systemFontOfSize:(CGFloat)fontSize;
 
 /**
  *  boldSystemFontOfSize
@@ -38,7 +38,7 @@
  *
  *  @return return value description
  */
-+ (HSFont *)boldSystemFontOfSize:(CGFloat)fontSize;
++ (CCFont *)boldSystemFontOfSize:(CGFloat)fontSize;
 
 
 @end
