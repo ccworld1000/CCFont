@@ -12,20 +12,18 @@
 		000CD9051E4842C700B4EF31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000CD9041E4842C700B4EF31 /* ViewController.m */; };
 		000CD9071E4842C700B4EF31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000CD9061E4842C700B4EF31 /* Assets.xcassets */; };
 		000CD90A1E4842C700B4EF31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000CD9081E4842C700B4EF31 /* Main.storyboard */; };
-		000CD90F1E4843C400B4EF31 /* HSFontTest.h in Sources */ = {isa = PBXBuildFile; fileRef = 00795CA21E48329400A9554A /* HSFontTest.h */; };
-		000CD9101E4843C400B4EF31 /* HSFontTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 00795CA31E48329400A9554A /* HSFontTest.m */; };
+		000CD90F1E4843C400B4EF31 /* CCFontTest.h in Sources */ = {isa = PBXBuildFile; fileRef = 00795CA21E48329400A9554A /* CCFontTest.h */; };
+		000CD9101E4843C400B4EF31 /* CCFontTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 00795CA31E48329400A9554A /* CCFontTest.m */; };
 		00795C771E48326700A9554A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00795C761E48326700A9554A /* main.m */; };
 		00795C7A1E48326700A9554A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00795C791E48326700A9554A /* AppDelegate.m */; };
 		00795C7D1E48326700A9554A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00795C7C1E48326700A9554A /* ViewController.m */; };
 		00795C801E48326700A9554A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00795C7E1E48326700A9554A /* Main.storyboard */; };
 		00795C821E48326700A9554A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00795C811E48326700A9554A /* Assets.xcassets */; };
 		00795C851E48326700A9554A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00795C831E48326700A9554A /* LaunchScreen.storyboard */; };
-		00795CA41E48329400A9554A /* HSFontTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 00795CA31E48329400A9554A /* HSFontTest.m */; };
+		00795CA41E48329400A9554A /* CCFontTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 00795CA31E48329400A9554A /* CCFontTest.m */; };
 		00C44EA81E5D63B60012561B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00C44EA71E5D63B60012561B /* GoogleService-Info.plist */; };
 		9E6A34B4595FA565FCA518EF /* libPods-CCFontiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACF6F54FDC41196A83EF0F13 /* libPods-CCFontiOS.a */; };
-		A5AE9CE61A7B3A1B3D126EBC /* libPods-HSFontiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E185C92975178FE9C156A7E /* libPods-HSFontiOS.a */; };
 		DF1B22DFD96FB24DB53E28F9 /* libPods-CCFontMac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB389CD8A4B8C5C570F32DB2 /* libPods-CCFontMac.a */; };
-		EC808BB31A3B27D04F6C25D2 /* libPods-HSFontMac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 040F9EFABE9EC429139EECEE /* libPods-HSFontMac.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +43,8 @@
 		00120AF620AEED320050B799 /* CCFont+Simple.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CCFont+Simple.m"; sourceTree = "<group>"; };
 		00120AF720AEED320050B799 /* CCUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCUtilities.h; sourceTree = "<group>"; };
 		00120AF820AEED320050B799 /* CCColor+Simple.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CCColor+Simple.m"; sourceTree = "<group>"; };
+		00120AF920AEFF270050B799 /* README.CN.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.CN.md; path = ../README.CN.md; sourceTree = "<group>"; };
+		00120AFA20AEFF280050B799 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		00795C731E48326700A9554A /* CCFontiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCFontiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00795C761E48326700A9554A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		00795C781E48326700A9554A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,20 +55,14 @@
 		00795C811E48326700A9554A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00795C841E48326700A9554A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00795C861E48326700A9554A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00795CA21E48329400A9554A /* HSFontTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSFontTest.h; sourceTree = "<group>"; };
-		00795CA31E48329400A9554A /* HSFontTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSFontTest.m; sourceTree = "<group>"; };
+		00795CA21E48329400A9554A /* CCFontTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFontTest.h; sourceTree = "<group>"; };
+		00795CA31E48329400A9554A /* CCFontTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFontTest.m; sourceTree = "<group>"; };
 		00C44EA71E5D63B60012561B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		040F9EFABE9EC429139EECEE /* libPods-HSFontMac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HSFontMac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0471EE4E34D6DC1CFA1FDCF4 /* Pods-HSFontiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSFontiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HSFontiOS/Pods-HSFontiOS.debug.xcconfig"; sourceTree = "<group>"; };
-		0E185C92975178FE9C156A7E /* libPods-HSFontiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HSFontiOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		702C493B16B8FE47C565D0C1 /* Pods-CCFontiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCFontiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCFontiOS/Pods-CCFontiOS.release.xcconfig"; sourceTree = "<group>"; };
-		85E6E1610978E1F13DBC58C2 /* Pods-HSFontMac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSFontMac.release.xcconfig"; path = "Pods/Target Support Files/Pods-HSFontMac/Pods-HSFontMac.release.xcconfig"; sourceTree = "<group>"; };
 		AB389CD8A4B8C5C570F32DB2 /* libPods-CCFontMac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCFontMac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF6F54FDC41196A83EF0F13 /* libPods-CCFontiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCFontiOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5AD552210417C48B6E60048 /* Pods-HSFontiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSFontiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-HSFontiOS/Pods-HSFontiOS.release.xcconfig"; sourceTree = "<group>"; };
 		DD6DFF03DFF809183E48F252 /* Pods-CCFontMac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCFontMac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCFontMac/Pods-CCFontMac.debug.xcconfig"; sourceTree = "<group>"; };
 		EC2801CF73EFD25537753CD4 /* Pods-CCFontMac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCFontMac.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCFontMac/Pods-CCFontMac.release.xcconfig"; sourceTree = "<group>"; };
-		EF1CE2088087EBDDC82B0C6B /* Pods-HSFontMac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSFontMac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HSFontMac/Pods-HSFontMac.debug.xcconfig"; sourceTree = "<group>"; };
 		EFD306E81E725CB75CF86CE8 /* Pods-CCFontiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCFontiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCFontiOS/Pods-CCFontiOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +71,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC808BB31A3B27D04F6C25D2 /* libPods-HSFontMac.a in Frameworks */,
 				DF1B22DFD96FB24DB53E28F9 /* libPods-CCFontMac.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -86,7 +79,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5AE9CE61A7B3A1B3D126EBC /* libPods-HSFontiOS.a in Frameworks */,
 				9E6A34B4595FA565FCA518EF /* libPods-CCFontiOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +127,8 @@
 		00795C0F1E482EFD00A9554A = {
 			isa = PBXGroup;
 			children = (
+				00120AFA20AEFF280050B799 /* README.md */,
+				00120AF920AEFF270050B799 /* README.CN.md */,
 				00120AF120AEED320050B799 /* CCFont */,
 				00795C641E4830BD00A9554A /* CCFontTest */,
 				00795C741E48326700A9554A /* CCFontiOS */,
@@ -157,8 +151,8 @@
 		00795C641E4830BD00A9554A /* CCFontTest */ = {
 			isa = PBXGroup;
 			children = (
-				00795CA21E48329400A9554A /* HSFontTest.h */,
-				00795CA31E48329400A9554A /* HSFontTest.m */,
+				00795CA21E48329400A9554A /* CCFontTest.h */,
+				00795CA31E48329400A9554A /* CCFontTest.m */,
 			);
 			path = CCFontTest;
 			sourceTree = "<group>";
@@ -191,8 +185,6 @@
 		02F24B884569078723EF9831 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				040F9EFABE9EC429139EECEE /* libPods-HSFontMac.a */,
-				0E185C92975178FE9C156A7E /* libPods-HSFontiOS.a */,
 				AB389CD8A4B8C5C570F32DB2 /* libPods-CCFontMac.a */,
 				ACF6F54FDC41196A83EF0F13 /* libPods-CCFontiOS.a */,
 			);
@@ -202,10 +194,6 @@
 		D1044BBB53A6DE0E97ED1B64 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EF1CE2088087EBDDC82B0C6B /* Pods-HSFontMac.debug.xcconfig */,
-				85E6E1610978E1F13DBC58C2 /* Pods-HSFontMac.release.xcconfig */,
-				0471EE4E34D6DC1CFA1FDCF4 /* Pods-HSFontiOS.debug.xcconfig */,
-				D5AD552210417C48B6E60048 /* Pods-HSFontiOS.release.xcconfig */,
 				DD6DFF03DFF809183E48F252 /* Pods-CCFontMac.debug.xcconfig */,
 				EC2801CF73EFD25537753CD4 /* Pods-CCFontMac.release.xcconfig */,
 				EFD306E81E725CB75CF86CE8 /* Pods-CCFontiOS.debug.xcconfig */,
@@ -358,8 +346,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				000CD90F1E4843C400B4EF31 /* HSFontTest.h in Sources */,
-				000CD9101E4843C400B4EF31 /* HSFontTest.m in Sources */,
+				000CD90F1E4843C400B4EF31 /* CCFontTest.h in Sources */,
+				000CD9101E4843C400B4EF31 /* CCFontTest.m in Sources */,
 				000CD9051E4842C700B4EF31 /* ViewController.m in Sources */,
 				000CD9021E4842C700B4EF31 /* main.m in Sources */,
 				000CD8FF1E4842C700B4EF31 /* AppDelegate.m in Sources */,
@@ -371,7 +359,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00795C7D1E48326700A9554A /* ViewController.m in Sources */,
-				00795CA41E48329400A9554A /* HSFontTest.m in Sources */,
+				00795CA41E48329400A9554A /* CCFontTest.m in Sources */,
 				00795C7A1E48326700A9554A /* AppDelegate.m in Sources */,
 				00795C771E48326700A9554A /* main.m in Sources */,
 			);
@@ -450,12 +438,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = HSFontMac/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CCFontMac/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cc.HSFontMac;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.CCFontMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
@@ -498,11 +486,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = HSFontMac/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CCFontMac/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cc.HSFontMac;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.CCFontMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
@@ -562,12 +550,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = HSFontiOS/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CCFontiOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cc.HSFontiOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.CCFontiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -610,11 +598,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = HSFontiOS/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CCFontiOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cc.HSFontiOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.CCFontiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";

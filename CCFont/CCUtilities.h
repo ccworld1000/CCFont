@@ -1,5 +1,5 @@
 //
-//  HSUtilities.h
+//  CCUtilities.h
 //  CCFontiOS
 //
 //  Created by dengyouhua on 16/10/24.
@@ -28,4 +28,4 @@
 #import "CCColor+Simple.h"
 
 
-#endif /* HSUtilities_h */
+#endif /* CCUtilities_h */

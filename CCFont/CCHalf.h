@@ -12,7 +12,7 @@
 #include <stdio.h>
 
 /**
- *  calc dimension
+ *  calc half
  *
  *  @param value value description
  *

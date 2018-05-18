@@ -33,11 +33,11 @@ pod 'CCFont'
 
 ## 用法
 ```objective-c
-#import <HSUtilities.h>
+#import <CCUtilities.h>
 ```
 # 或
 ```objective-c
-#import <CCFont/HSUtilities.h>
+#import <CCFont/CCUtilities.h>
 ```
 # 演示代码
 ```objective-c
@@ -70,7 +70,7 @@ pod 'CCFont'
 #endif
             
             l.font = [CCFont systemFontOfSize: i];
-            r.font = [CCFont systemFontOfSize: accommon_calc_dimension(i)];
+            r.font = [CCFont systemFontOfSize: CCHalf(i)];
             
             if (index % 2) {
                 l.textColor = [CCColor colorWithHexString:[NSString stringWithFormat:@"%f%lx%lx", 255 / (index * 1.), index * 4, index * 8]];
@@ -80,8 +80,8 @@ pod 'CCFont'
                 r.textColor = [CCColor colorWithHexString:[NSString stringWithFormat:@"%lx%x%lx", index * 4, 255, index * 8]];
             }
             
-            l.frame = CGRectMake(accommon_calc_dimension(space), index * height, accommon_calc_dimension(width), height);
-            r.frame = CGRectMake(accommon_calc_dimension(width + space), index * height, accommon_calc_dimension(width), height);
+            l.frame = CGRectMake(CCHalf(space), index * height, CCHalf(width), height);
+            r.frame = CGRectMake(CCHalf(width + space), index * height, CCHalf(width), height);
             
             [p addSubview: l];
             [p addSubview: r];

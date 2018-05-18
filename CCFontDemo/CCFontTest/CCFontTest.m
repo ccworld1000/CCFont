@@ -7,7 +7,7 @@
 //
 
 #import "CCFontTest.h"
-#import <HSUtilities.h>
+#import <CCUtilities.h>
 
 #import "TargetConditionals.h"
 
@@ -56,7 +56,7 @@
 #endif
             
             l.font = [CCFont systemFontOfSize: i];
-            r.font = [CCFont systemFontOfSize: accommon_calc_dimension(i)];
+            r.font = [CCFont systemFontOfSize: CCHalf(i)];
             
             if (index % 2) {
                 l.textColor = [CCColor colorWithHexString:[NSString stringWithFormat:@"%f%lx%lx", 255 / (index * 1.), index * 4, index * 8]];
@@ -74,8 +74,8 @@
                 l.textColor = CCColorRGB(0, 0, 255);
             }
             
-            l.frame = CGRectMake(accommon_calc_dimension(space), index * height, accommon_calc_dimension(width), height);
-            r.frame = CGRectMake(accommon_calc_dimension(width + space), index * height, accommon_calc_dimension(width), height);
+            l.frame = CGRectMake(CCHalf(space), index * height, CCHalf(width), height);
+            r.frame = CGRectMake(CCHalf(width + space), index * height, CCHalf(width), height);
             
             [p addSubview: l];
             [p addSubview: r];

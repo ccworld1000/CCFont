@@ -22,8 +22,8 @@ Email ： <a href="mailto:ccworld1000@gmail.com">ccworld1000@gmail.com</a>
 ## CCFont
 CCFont simple support machosx and iOS, can simple replace NSFont or UIFont.
 
-## HSColor
-HSColor simple support machosx and iOS, can simple replace NSColor or UIColor hex string.
+## CCColor
+CCColor simple support machosx and iOS, can simple replace NSColor or UIColor hex string.
 
 ## Podfile
 
@@ -33,11 +33,11 @@ pod 'CCFont'
 
 ## usage
 ```objective-c
-#import <HSUtilities.h>
+#import <CCUtilities.h>
 ```
 # or
 ```objective-c
-#import <CCFont/HSUtilities.h>
+#import <CCFont/CCUtilities.h>
 ```
 # demo code
 ```objective-c
@@ -70,18 +70,18 @@ pod 'CCFont'
 #endif
             
             l.font = [CCFont systemFontOfSize: i];
-            r.font = [CCFont systemFontOfSize: accommon_calc_dimension(i)];
+            r.font = [CCFont systemFontOfSize: CCHalf(i)];
             
             if (index % 2) {
-                l.textColor = [HSColor colorWithHexString:[NSString stringWithFormat:@"%f%lx%lx", 255 / (index * 1.), index * 4, index * 8]];
-                r.textColor = [HSColor colorWithHexString:[NSString stringWithFormat:@"%f%lx%lx", 255 / (index * 1.), index * 4, index * 8]];
+                l.textColor = [CCColor colorWithHexString:[NSString stringWithFormat:@"%f%lx%lx", 255 / (index * 1.), index * 4, index * 8]];
+                r.textColor = [CCColor colorWithHexString:[NSString stringWithFormat:@"%f%lx%lx", 255 / (index * 1.), index * 4, index * 8]];
             } else {
-                l.textColor = [HSColor colorWithHexString:[NSString stringWithFormat:@"%lx%x%lx", index * 4, 255, index * 8]];
-                r.textColor = [HSColor colorWithHexString:[NSString stringWithFormat:@"%lx%x%lx", index * 4, 255, index * 8]];
+                l.textColor = [CCColor colorWithHexString:[NSString stringWithFormat:@"%lx%x%lx", index * 4, 255, index * 8]];
+                r.textColor = [CCColor colorWithHexString:[NSString stringWithFormat:@"%lx%x%lx", index * 4, 255, index * 8]];
             }
             
-            l.frame = CGRectMake(accommon_calc_dimension(space), index * height, accommon_calc_dimension(width), height);
-            r.frame = CGRectMake(accommon_calc_dimension(width + space), index * height, accommon_calc_dimension(width), height);
+            l.frame = CGRectMake(CCHalf(space), index * height, CCHalf(width), height);
+            r.frame = CGRectMake(CCHalf(width + space), index * height, CCHalf(width), height);
             
             [p addSubview: l];
             [p addSubview: r];
