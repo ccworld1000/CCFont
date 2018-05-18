@@ -1,13 +1,13 @@
 //
-//  accommon.h
+//  cchalf.h
 //  HSFont
 //
 //  Created by dengyouhua on 17/2/6.
 //  Copyright © 2017年 cc | ccworld1000@gmail.com. All rights reserved.
 //
 
-#ifndef accommon_h
-#define accommon_h
+#ifndef cchalf_h
+#define cchalf_h
 
 #include <stdio.h>
 
@@ -18,6 +18,6 @@
  *
  *  @return return value / 2. description
  */
-extern float accommon_calc_dimension (float value);
+extern float CCHalf (float value);
 
-#endif /* accommon_h */
+#endif /* cchalf_h */
