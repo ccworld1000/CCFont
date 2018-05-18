@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:HSFontDemo.xcodeproj">
+      location = "group:/Users/mac/git.local/CCFont/HSFontDemo/CCFontDemo.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

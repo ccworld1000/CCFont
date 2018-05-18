@@ -27,7 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		000CD8FB1E4842C700B4EF31 /* HSFontMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HSFontMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		000CD8FB1E4842C700B4EF31 /* CCFontMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCFontMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		000CD8FD1E4842C700B4EF31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		000CD8FE1E4842C700B4EF31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		000CD9011E4842C700B4EF31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -36,7 +36,14 @@
 		000CD9061E4842C700B4EF31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		000CD9091E4842C700B4EF31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		000CD90B1E4842C700B4EF31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00795C731E48326700A9554A /* HSFontiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HSFontiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00120AF220AEED320050B799 /* accommon.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = accommon.c; sourceTree = "<group>"; };
+		00120AF320AEED320050B799 /* HSFont+Simple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HSFont+Simple.h"; sourceTree = "<group>"; };
+		00120AF420AEED320050B799 /* HSColor+Simple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HSColor+Simple.h"; sourceTree = "<group>"; };
+		00120AF520AEED320050B799 /* accommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = accommon.h; sourceTree = "<group>"; };
+		00120AF620AEED320050B799 /* HSFont+Simple.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HSFont+Simple.m"; sourceTree = "<group>"; };
+		00120AF720AEED320050B799 /* HSUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSUtilities.h; sourceTree = "<group>"; };
+		00120AF820AEED320050B799 /* HSColor+Simple.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HSColor+Simple.m"; sourceTree = "<group>"; };
+		00795C731E48326700A9554A /* CCFontiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCFontiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00795C761E48326700A9554A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		00795C781E48326700A9554A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		00795C791E48326700A9554A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -77,7 +84,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		000CD8FC1E4842C700B4EF31 /* HSFontMac */ = {
+		000CD8FC1E4842C700B4EF31 /* CCFontMac */ = {
 			isa = PBXGroup;
 			children = (
 				000CD8FD1E4842C700B4EF31 /* AppDelegate.h */,
@@ -89,7 +96,7 @@
 				000CD90B1E4842C700B4EF31 /* Info.plist */,
 				000CD9001E4842C700B4EF31 /* Supporting Files */,
 			);
-			path = HSFontMac;
+			path = CCFontMac;
 			sourceTree = "<group>";
 		};
 		000CD9001E4842C700B4EF31 /* Supporting Files */ = {
@@ -100,12 +107,28 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		00120AF120AEED320050B799 /* HSFont */ = {
+			isa = PBXGroup;
+			children = (
+				00120AF220AEED320050B799 /* accommon.c */,
+				00120AF320AEED320050B799 /* HSFont+Simple.h */,
+				00120AF420AEED320050B799 /* HSColor+Simple.h */,
+				00120AF520AEED320050B799 /* accommon.h */,
+				00120AF620AEED320050B799 /* HSFont+Simple.m */,
+				00120AF720AEED320050B799 /* HSUtilities.h */,
+				00120AF820AEED320050B799 /* HSColor+Simple.m */,
+			);
+			name = HSFont;
+			path = ../HSFont;
+			sourceTree = "<group>";
+		};
 		00795C0F1E482EFD00A9554A = {
 			isa = PBXGroup;
 			children = (
+				00120AF120AEED320050B799 /* HSFont */,
 				00795C641E4830BD00A9554A /* HSFontTest */,
-				00795C741E48326700A9554A /* HSFontiOS */,
-				000CD8FC1E4842C700B4EF31 /* HSFontMac */,
+				00795C741E48326700A9554A /* CCFontiOS */,
+				000CD8FC1E4842C700B4EF31 /* CCFontMac */,
 				00795C1B1E482F6A00A9554A /* Products */,
 				D1044BBB53A6DE0E97ED1B64 /* Pods */,
 				02F24B884569078723EF9831 /* Frameworks */,
@@ -115,8 +138,8 @@
 		00795C1B1E482F6A00A9554A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				00795C731E48326700A9554A /* HSFontiOS.app */,
-				000CD8FB1E4842C700B4EF31 /* HSFontMac.app */,
+				00795C731E48326700A9554A /* CCFontiOS.app */,
+				000CD8FB1E4842C700B4EF31 /* CCFontMac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,7 +153,7 @@
 			path = HSFontTest;
 			sourceTree = "<group>";
 		};
-		00795C741E48326700A9554A /* HSFontiOS */ = {
+		00795C741E48326700A9554A /* CCFontiOS */ = {
 			isa = PBXGroup;
 			children = (
 				00795C781E48326700A9554A /* AppDelegate.h */,
@@ -144,7 +167,7 @@
 				00C44EA71E5D63B60012561B /* GoogleService-Info.plist */,
 				00795C751E48326700A9554A /* Supporting Files */,
 			);
-			path = HSFontiOS;
+			path = CCFontiOS;
 			sourceTree = "<group>";
 		};
 		00795C751E48326700A9554A /* Supporting Files */ = {
@@ -178,9 +201,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		000CD8FA1E4842C700B4EF31 /* HSFontMac */ = {
+		000CD8FA1E4842C700B4EF31 /* CCFontMac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 000CD90C1E4842C700B4EF31 /* Build configuration list for PBXNativeTarget "HSFontMac" */;
+			buildConfigurationList = 000CD90C1E4842C700B4EF31 /* Build configuration list for PBXNativeTarget "CCFontMac" */;
 			buildPhases = (
 				813ED15BEE06092C9D386162 /* [CP] Check Pods Manifest.lock */,
 				000CD8F71E4842C700B4EF31 /* Sources */,
@@ -193,14 +216,14 @@
 			);
 			dependencies = (
 			);
-			name = HSFontMac;
+			name = CCFontMac;
 			productName = HSFontMac;
-			productReference = 000CD8FB1E4842C700B4EF31 /* HSFontMac.app */;
+			productReference = 000CD8FB1E4842C700B4EF31 /* CCFontMac.app */;
 			productType = "com.apple.product-type.application";
 		};
-		00795C721E48326700A9554A /* HSFontiOS */ = {
+		00795C721E48326700A9554A /* CCFontiOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00795C871E48326700A9554A /* Build configuration list for PBXNativeTarget "HSFontiOS" */;
+			buildConfigurationList = 00795C871E48326700A9554A /* Build configuration list for PBXNativeTarget "CCFontiOS" */;
 			buildPhases = (
 				F4B20EB5674829A627D05E95 /* [CP] Check Pods Manifest.lock */,
 				00795C6F1E48326700A9554A /* Sources */,
@@ -213,9 +236,9 @@
 			);
 			dependencies = (
 			);
-			name = HSFontiOS;
+			name = CCFontiOS;
 			productName = HSFontiOS;
-			productReference = 00795C731E48326700A9554A /* HSFontiOS.app */;
+			productReference = 00795C731E48326700A9554A /* CCFontiOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -237,7 +260,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 00795C131E482EFD00A9554A /* Build configuration list for PBXProject "HSFontDemo" */;
+			buildConfigurationList = 00795C131E482EFD00A9554A /* Build configuration list for PBXProject "CCFontDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -250,8 +273,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				00795C721E48326700A9554A /* HSFontiOS */,
-				000CD8FA1E4842C700B4EF31 /* HSFontMac */,
+				00795C721E48326700A9554A /* CCFontiOS */,
+				000CD8FA1E4842C700B4EF31 /* CCFontMac */,
 			);
 		};
 /* End PBXProject section */
@@ -644,7 +667,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		000CD90C1E4842C700B4EF31 /* Build configuration list for PBXNativeTarget "HSFontMac" */ = {
+		000CD90C1E4842C700B4EF31 /* Build configuration list for PBXNativeTarget "CCFontMac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				000CD90D1E4842C700B4EF31 /* Debug */,
@@ -653,7 +676,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		00795C131E482EFD00A9554A /* Build configuration list for PBXProject "HSFontDemo" */ = {
+		00795C131E482EFD00A9554A /* Build configuration list for PBXProject "CCFontDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00795C141E482EFD00A9554A /* Debug */,
@@ -662,7 +685,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		00795C871E48326700A9554A /* Build configuration list for PBXNativeTarget "HSFontiOS" */ = {
+		00795C871E48326700A9554A /* Build configuration list for PBXNativeTarget "CCFontiOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00795C881E48326700A9554A /* Debug */,
