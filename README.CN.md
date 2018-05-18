@@ -1,22 +1,12 @@
 
-# HSFont for iOS && OSX
+# CCFont for iOS && OSX
 =======================
-
-[![Apps Using](https://img.shields.io/cocoapods/at/HSFont.svg?label=Apps%20Using%20HSFont&colorB=28B9FE)](http://cocoapods.org/pods/HSFont) [![Downloads](https://img.shields.io/cocoapods/dt/HSFont.svg?label=Total%20Downloads&colorB=28B9FE)](http://cocoapods.org/pods/HSFont)
-
-[![Platform](https://img.shields.io/badge/platforms-iOS%20%7C%20OSX-orange.svg)](https://github.com/ccworld1000/HSFont.git)
-[![Languages](https://img.shields.io/badge/languages-ObjC-orange.svg)](https://github.com/ccworld1000/HSFont)
-
-[![Version](https://img.shields.io/cocoapods/v/HSFont.svg)](https://github.com/ccworld1000/HSFont.git)
-[![License](https://img.shields.io/cocoapods/l/HSFont.svg)](https://github.com/ccworld1000/HSFont/blob/master/LICENSE)
-
-[![Build Status](https://travis-ci.org/ccworld1000/HSFont.svg?branch=master)](https://travis-ci.org/ccworld1000/HSFont)
 
 [英文README](README.md)
 
 简单支持 MAC OSX [>=10.9] 和 iOS [>=8]
 
-[https://github.com/ccworld1000/HSFont.git](https://github.com/ccworld1000/HSFont.git)
+[https://github.com/ccworld1000/CCFont.git](https://github.com/ccworld1000/CCFont.git)
 
 ##bug 
 邮件 ： <a href="mailto:ccworld1000@gmail.com">ccworld1000@gmail.com</a>
@@ -24,13 +14,13 @@
 ## 截图 1
 
 ### OSX
-![HSFont HSFontMac Screenshot](https://github.com/ccworld1000/HSFont/blob/master/HSFontMac.gif?raw=true)
+![CCFont CCFontMac Screenshot](https://github.com/ccworld1000/CCFont/blob/master/CCFontMac.gif?raw=true)
 
 ### iOS
-![HSFont HSFontiOS Screenshot](https://github.com/ccworld1000/HSFont/blob/master/HSFontiOS.gif?raw=true)
+![CCFont CCFontiOS Screenshot](https://github.com/ccworld1000/CCFont/blob/master/CCFontiOS.gif?raw=true)
 
-## HSFont
-HSFont 简单支持 machosx 与 iOS, 可以简单取代 NSFont 或者 UIFont.
+## CCFont
+CCFont 简单支持 machosx 与 iOS, 可以简单取代 NSFont 或者 UIFont.
 
 ## HSColor
 HSColor 单支持  machosx 与 iOS, 可以简单取代 NSColor 或者 UIColor 十六进制字符串.
@@ -38,7 +28,7 @@ HSColor 单支持  machosx 与 iOS, 可以简单取代 NSColor 或者 UIColor �
 ## Podfile
 
 ```ruby
-pod 'HSFont'
+pod 'CCFont'
 ```
 
 ## 用法
@@ -47,7 +37,7 @@ pod 'HSFont'
 ```
 # 或
 ```objective-c
-#import <HSFont/HSUtilities.h>
+#import <CCFont/HSUtilities.h>
 ```
 # 演示代码
 ```objective-c
@@ -63,8 +53,8 @@ pod 'HSFont'
         while (index < 10) {
             NSInteger i = 10 + index++;
             
-            NSString *leftText = [NSString stringWithFormat:@"L : HSFont %ld",  i];
-            NSString *rightText = [NSString stringWithFormat:@"R : HSFont %ld",  i];
+            NSString *leftText = [NSString stringWithFormat:@"L : CCFont %ld",  i];
+            NSString *rightText = [NSString stringWithFormat:@"R : CCFont %ld",  i];
             
 #if TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR
             UILabel *l = [UILabel new];
@@ -79,8 +69,8 @@ pod 'HSFont'
             r.stringValue = rightText;
 #endif
             
-            l.font = [HSFont systemFontOfSize: i];
-            r.font = [HSFont systemFontOfSize: accommon_calc_dimension(i)];
+            l.font = [CCFont systemFontOfSize: i];
+            r.font = [CCFont systemFontOfSize: accommon_calc_dimension(i)];
             
             if (index % 2) {
                 l.textColor = [HSColor colorWithHexString:[NSString stringWithFormat:@"%f%lx%lx", 255 / (index * 1.), index * 4, index * 8]];
@@ -103,7 +93,7 @@ pod 'HSFont'
 ## MIT 许可证
 MIT License
 
-Copyright (c) 2016-2017 ccworld1000 | bug : <a href="mailto:ccworld1000@gmail.com">ccworld1000@gmail.com</a>
+Copyright (c) 2016-now ccworld1000 | bug : <a href="mailto:ccworld1000@gmail.com">ccworld1000@gmail.com</a>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
