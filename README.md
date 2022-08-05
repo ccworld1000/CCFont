@@ -8,8 +8,14 @@ simple support MAC OSX [>=10.9] and iOS [>=8]
 
 [https://github.com/ccworld1000/CCFont.git](https://github.com/ccworld1000/CCFont.git)
 
-##bug 
-Email ： <a href="mailto:ccworld1000@gmail.com">ccworld1000@gmail.com</a>
+
+## For more details, please refer to the relevant demo
+
+[https://github.com/ccworld1000/CCDebug](https://github.com/ccworld1000/CCDebug)
+
+[https://github.com/ccworld1000/CCFont](https://github.com/ccworld1000/CCFont)
+
+[https://github.com/ccworld1000/CCSet](https://github.com/ccworld1000/CCSet)
 
 ## Screenshot 1
 
